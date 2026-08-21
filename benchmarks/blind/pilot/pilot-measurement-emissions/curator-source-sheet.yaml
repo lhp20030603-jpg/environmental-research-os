@@ -1,0 +1,120 @@
+schema_version: "1.0"
+case_id: pilot-case-007
+method_family: measurement
+zotero_item_key: 7G7FGMIR
+zotero_attachment_key: PMGE3MN6
+doi: 10.1038/sdata.2017.201
+title: "China CO2 emission accounts 1997–2015"
+authors:
+  - "Yuli Shan"
+  - "Dabo Guan"
+  - "Heran Zheng"
+  - "Jiamin Ou"
+  - "Yuan Li"
+  - "Jing Meng"
+  - "Zhifu Mi"
+  - "Zhu Liu"
+  - "Qiang Zhang"
+source_content_hash: f32586df2193394a12e8824971c647b5b5212dd71606b763f1c701efc4a1cebc
+source_generation: 1
+institutional_context:
+  - "A harmonized territorial inventory measures combustion and industrial-process carbon dioxide."
+  - "National and subnational accounts use common fuel-sector definitions over time."
+restricted_terms:
+  - term: "Shan"
+    rationale: source-specific identity, method, dataset, or result marker
+  - term: "Guan"
+    rationale: source-specific identity, method, dataset, or result marker
+  - term: "China CO2 emission accounts"
+    rationale: source-specific identity, method, dataset, or result marker
+  - term: "IPCC"
+    rationale: source-specific identity, method, dataset, or result marker
+  - term: "30 provinces"
+    rationale: source-specific identity, method, dataset, or result marker
+  - term: "17 fossil fuels"
+    rationale: source-specific identity, method, dataset, or result marker
+  - term: "47 sectors"
+    rationale: source-specific identity, method, dataset, or result marker
+  - term: "cement production"
+    rationale: source-specific identity, method, dataset, or result marker
+distinctive_phrase_hashes:
+  - b2857fe7e22306bb8123df91163f2fefb09a8e794e4802895c0a587d8ec8c7f9
+claims:
+  - claim_id: claim-001
+    normalized_claim: "The inventory time series spans 1997 through 2015."
+    source_item_key: 7G7FGMIR
+    source_attachment_key: PMGE3MN6
+    source_content_hash: f32586df2193394a12e8824971c647b5b5212dd71606b763f1c701efc4a1cebc
+    locator:
+      page: 1
+      section: "Abstract"
+    supporting_passage_hash: b79791e6bad57223729ceeac0e56cfce13983ff5e9c76f2b0f3783c0dd3b0fd6
+    status: claim_verified
+    extractor_principal: pilot8-extractor
+    verifier_principal: pilot8-evidence-verifier-v1
+    verified_at: 2026-08-09T17:06:07Z
+  - claim_id: claim-002
+    normalized_claim: "Reporting units are one nation and thirty subnational jurisdictions."
+    source_item_key: 7G7FGMIR
+    source_attachment_key: PMGE3MN6
+    source_content_hash: f32586df2193394a12e8824971c647b5b5212dd71606b763f1c701efc4a1cebc
+    locator:
+      page: 2
+      section: "Background and Summary"
+    supporting_passage_hash: d411e4aa2098ab8bb8bdb391a0723bc27672965d3e542066744264d69562812e
+    status: claim_verified
+    extractor_principal: pilot8-extractor
+    verifier_principal: pilot8-evidence-verifier-v1
+    verified_at: 2026-08-09T17:06:07Z
+  - claim_id: claim-003
+    normalized_claim: "Measured outcomes include energy-related emissions across fuel-sector cells and cement-process emissions."
+    source_item_key: 7G7FGMIR
+    source_attachment_key: PMGE3MN6
+    source_content_hash: f32586df2193394a12e8824971c647b5b5212dd71606b763f1c701efc4a1cebc
+    locator:
+      page: 1
+      section: "Abstract"
+    supporting_passage_hash: 5491ea1a2dd1c53a91561886cd2492e39f5ed18af3867345eb71b3ae6550817c
+    status: claim_verified
+    extractor_principal: pilot8-extractor
+    verifier_principal: pilot8-evidence-verifier-v1
+    verified_at: 2026-08-09T17:06:07Z
+  - claim_id: claim-004
+    normalized_claim: "Energy-related inventory cells index fossil-fuel consumption by fuel type and sector."
+    source_item_key: 7G7FGMIR
+    source_attachment_key: PMGE3MN6
+    source_content_hash: f32586df2193394a12e8824971c647b5b5212dd71606b763f1c701efc4a1cebc
+    locator:
+      page: 2
+      section: "Methods: Energy-related sectoral approach emissions"
+    supporting_passage_hash: 550cc39d0a8c7f820b938f7eebdcf9c982b275e95dc5dc3e44d002cf053e4199
+    status: claim_verified
+    extractor_principal: pilot8-extractor
+    verifier_principal: pilot8-evidence-verifier-v1
+    verified_at: 2026-08-09T17:06:07Z
+  - claim_id: claim-005
+    normalized_claim: "Territorial inventories exclude emissions from imported electricity and heat."
+    source_item_key: 7G7FGMIR
+    source_attachment_key: PMGE3MN6
+    source_content_hash: f32586df2193394a12e8824971c647b5b5212dd71606b763f1c701efc4a1cebc
+    locator:
+      page: 3
+      section: "Methods"
+    supporting_passage_hash: c311805ef2be9718e435798605bfed3b8a6b2d3906d06201bd2fcd2bf823a26c
+    status: claim_verified
+    extractor_principal: pilot8-extractor
+    verifier_principal: pilot8-evidence-verifier-v1
+    verified_at: 2026-08-09T17:06:07Z
+  - claim_id: claim-006
+    normalized_claim: "Provincial calculations use national-average emission factors."
+    source_item_key: 7G7FGMIR
+    source_attachment_key: PMGE3MN6
+    source_content_hash: f32586df2193394a12e8824971c647b5b5212dd71606b763f1c701efc4a1cebc
+    locator:
+      page: 12
+      section: "Limitations"
+    supporting_passage_hash: 61453cb40f84f53c8030bdb429042f4949876a60e051976e4f8d92d1cb74f972
+    status: claim_verified
+    extractor_principal: pilot8-extractor
+    verifier_principal: pilot8-evidence-verifier-v1
+    verified_at: 2026-08-09T17:06:07Z

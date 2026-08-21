@@ -1,0 +1,7 @@
+{"cases":[
+{"case_id":"fail-hedonic-sensitivity","role":"scientific-failure","expected_code":"HEDONIC_SENSITIVITY_EXCEEDED"},
+{"case_id":"fail-travel-dispersion","role":"scientific-failure","expected_code":"TRAVEL_COST_DISPERSION_EXCEEDED"},
+{"case_id":"fail-cv-wtp","role":"scientific-failure","expected_code":"CV_MONOTONICITY_FAILED"},
+{"case_id":"fail-dce-choice-set","role":"scientific-failure","expected_code":"DCE_CHOICE_SET_INVALID"},
+{"case_id":"integrity-output-tamper","role":"integrity-failure","expected_code":"EVIDENCE_TAMPERED"}
+]}

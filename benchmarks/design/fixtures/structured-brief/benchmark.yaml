@@ -1,0 +1,81 @@
+id: structured-brief
+version: '1.0'
+tier: 0
+source: repository-owned synthetic fixture
+license: CC0-1.0
+input_fixture: brief.yaml
+replay_fixture: replay.yaml
+expected_phase: complete
+expected_artifacts:
+- artifacts/.versions/analysis-plan.yaml/0001.json
+- artifacts/.versions/analysis-plan.yaml/0002.json
+- artifacts/.versions/analysis-plan.yaml/0003.json
+- artifacts/.versions/data-feasibility.yaml/0001.json
+- artifacts/.versions/data-feasibility.yaml/0002.json
+- artifacts/.versions/design-review-findings.json/0001.json
+- artifacts/.versions/design-review-findings.json/0002.json
+- artifacts/.versions/estimand-spec.yaml/0001.json
+- artifacts/.versions/estimand-spec.yaml/0002.json
+- artifacts/.versions/evidence-matrix.csv/0001.json
+- artifacts/.versions/evidence-matrix.csv/0002.json
+- artifacts/.versions/identification-memo.md/0001.json
+- artifacts/.versions/identification-memo.md/0002.json
+- artifacts/.versions/intake-brief.yaml/0001.json
+- artifacts/.versions/intake-brief.yaml/0002.json
+- artifacts/.versions/literature-map.json/0001.json
+- artifacts/.versions/literature-map.json/0002.json
+- artifacts/.versions/method-candidates.json/0001.json
+- artifacts/.versions/method-candidates.json/0002.json
+- artifacts/.versions/research-brief.yaml/0001.json
+- artifacts/.versions/research-brief.yaml/0002.json
+- artifacts/.versions/research-charter.yaml/0001.json
+- artifacts/.versions/research-charter.yaml/0002.json
+- artifacts/analysis-plan.yaml
+- artifacts/data-feasibility.yaml
+- artifacts/design-review-findings.json
+- artifacts/estimand-spec.yaml
+- artifacts/evidence-matrix.csv
+- artifacts/evidence-matrix.meta.json
+- artifacts/identification-memo.md
+- artifacts/intake-brief.yaml
+- artifacts/literature-map.json
+- artifacts/method-candidates.json
+- artifacts/research-brief.yaml
+- artifacts/research-charter.yaml
+- decision-log.jsonl
+- events.jsonl
+- gate-contexts/final-gate/0001.json
+- gate-contexts/gate-1/0001.json
+- gates/final-gate.json
+- gates/gate-1.json
+- node-checkpoints/approve-charter.json
+- node-checkpoints/compose-plan.json
+- node-checkpoints/define-estimand.json
+- node-checkpoints/draft-identification.json
+- node-checkpoints/final-approval.json
+- node-checkpoints/inspect-data.json
+- node-checkpoints/map-literature.json
+- node-checkpoints/normalize-brief.json
+- node-checkpoints/rank-methods.json
+- node-checkpoints/review-design.json
+- node-checkpoints/superseded/{invalidation-compose-plan-1}/compose-plan.json
+- research-run-config.json
+- research-run-config.yaml
+- research-run-manifest.json
+- work-orders/compose-plan.json
+- work-orders/define-estimand.json
+- work-orders/draft-identification.json
+- work-orders/inspect-data.json
+- work-orders/map-literature.json
+- work-orders/normalize-brief.json
+- work-orders/rank-methods.json
+- work-orders/review-design.json
+rubric_version: research-quality-v1
+rubric_thresholds:
+  contribution_clarity: 3
+  evidence_coverage: 3
+  data_feasibility: 3
+  estimand_precision: 3
+  identification_credibility: 3
+  uncertainty_disclosure: 3
+executes_replication_package: false

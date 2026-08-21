@@ -1,0 +1,1 @@
+{"schema_version":"personal.policy-artifact.v1","policy_kind":"external-access","policy_version":"1","rules":[{"rule_id":"external-01-necessary-only","requirement":"Use network or Zotero only when necessary and record access; canonical cases require neither."}]}

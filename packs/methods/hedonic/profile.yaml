@@ -1,0 +1,36 @@
+profile_id: hedonic
+version: 0.2.0
+family: hedonic_pricing
+compatible_estimands:
+  - causal
+  - descriptive
+required_data_structures:
+  - cross_section
+  - repeated_cross_section
+  - panel
+required_features:
+  - market_prices
+  - environmental_attribute
+identifying_assumptions:
+  - Observed prices and attributes arise from a sufficiently well-defined market equilibrium for the proposed capitalization interpretation.
+  - The environmental attribute is measured at the location and time relevant to market participants.
+  - Omitted amenities, sorting, expectations, and market segmentation are addressed to the degree required by the chosen causal or descriptive estimand.
+incompatibility_rules:
+  - Recorded prices are administrative values or transfers that do not reflect the market margin named in the estimand.
+  - Environmental exposure cannot be aligned to the priced asset at an interpretable spatial and temporal scale.
+mandatory_diagnostics:
+  - Examine price and attribute support, market segmentation, spatial dependence, and influential observations.
+  - Assess sensitivity to property controls, neighborhood definitions, functional form, and exposure measurement choices.
+  - Distinguish descriptive capitalization patterns from welfare claims requiring stronger preference and equilibrium assumptions.
+falsification_checks:
+  - Test an environmental measure outside the plausible exposure window or geography as a negative-control attribute.
+fallback_profiles:
+  - spatiotemporal
+analysis_plan_fields:
+  - Market definition, transaction or price concept, and unit of observation
+  - Environmental attribute construction, timing, spatial linkage, and measurement error
+  - Target capitalization or valuation estimand and conditions needed for welfare interpretation
+  - Sorting, omitted amenities, spatial dependence, and market-segmentation sensitivities
+methodological_references:
+  - DOI:10.1086/260169
+estimator_entrypoint: null

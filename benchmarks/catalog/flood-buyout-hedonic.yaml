@@ -1,0 +1,10 @@
+id: flood-buyout-hedonic
+title: "Racial Gaps in Federal Flood Buyout Compensations"
+method_family: hedonic_valuation
+topic: flood-risk policy and property valuation
+public: false
+source_url: https://www.openicpsr.org/openicpsr/project/189021/version/V1/view
+source_version: V1
+doi: 10.3886/E189021V1
+commands: []
+expected_outputs: []

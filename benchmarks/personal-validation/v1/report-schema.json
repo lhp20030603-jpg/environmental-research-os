@@ -1,0 +1,1 @@
+{"schema_version":"personal.policy-artifact.v1","policy_kind":"report-schema","policy_version":"1","rules":[{"rule_id":"report-01-advisory","requirement":"Report personal advisory state and keep product release scientifically pending."}]}

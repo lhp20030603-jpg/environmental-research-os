@@ -1,0 +1,7 @@
+kernel:
+  schema_version: "1.0"
+  event_log_name: events.jsonl
+  checkpoint_dir: checkpoints
+runner:
+  default_timeout_seconds: 3600
+  allowed_executables: [python, python3, Rscript, stata-mp, stata-se]

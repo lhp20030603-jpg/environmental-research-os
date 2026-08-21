@@ -1,0 +1,128 @@
+schema_version: "1.0"
+case_id: pilot-case-008
+method_family: systematic_review_meta_analysis
+zotero_item_key: UNTRYVQ3
+zotero_attachment_key: 4JHFKY4D
+doi: 10.1038/s41467-024-48512-w
+title: "Systematic review and meta-analysis of ex-post evaluations on the effectiveness of carbon pricing"
+authors:
+  - "Niklas Döbbeling-Hildebrandt"
+  - "Klaas Miersch"
+  - "Tarun M. Khanna"
+  - "Marion Bachelet"
+  - "Stephan B. Bruns"
+  - "Max Callaghan"
+  - "Ottmar Edenhofer"
+  - "Christian Flachsland"
+  - "Piers M. Forster"
+  - "Matthias Kalkuhl"
+  - "Nicolas Koch"
+  - "William F. Lamb"
+  - "Nils Ohlendorf"
+  - "Jan Christoph Steckel"
+  - "Jan C. Minx"
+source_content_hash: 07de20c699c435e645d587ccdc222b1eb024cf11c0a7d7c0fcf37dee7261fe48
+source_generation: 1
+institutional_context:
+  - "A structured evidence synthesis compares causal ex-post evaluations of market-based climate policies."
+  - "Primary estimates are harmonized to a common emissions-change scale."
+restricted_terms:
+  - term: "Döbbeling-Hildebrandt"
+    rationale: source-specific identity, method, dataset, or result marker
+  - term: "Miersch"
+    rationale: source-specific identity, method, dataset, or result marker
+  - term: "Khanna"
+    rationale: source-specific identity, method, dataset, or result marker
+  - term: "NACSOS"
+    rationale: source-specific identity, method, dataset, or result marker
+  - term: "systematic review and meta-analysis"
+    rationale: source-specific identity, method, dataset, or result marker
+  - term: "effectiveness of carbon pricing"
+    rationale: source-specific identity, method, dataset, or result marker
+  - term: "483 effect sizes"
+    rationale: source-specific identity, method, dataset, or result marker
+  - term: "80 causal"
+    rationale: source-specific identity, method, dataset, or result marker
+  - term: "21 carbon"
+    rationale: source-specific identity, method, dataset, or result marker
+distinctive_phrase_hashes:
+  - 167001275be4f219623cef33d748e651a1af01ac5f1c7db3a11b9fcd2fc84dfa
+claims:
+  - claim_id: claim-001
+    normalized_claim: "Eligible primary estimates are indexed relative to policy introduction and their observed post-introduction periods."
+    source_item_key: UNTRYVQ3
+    source_attachment_key: 4JHFKY4D
+    source_content_hash: 07de20c699c435e645d587ccdc222b1eb024cf11c0a7d7c0fcf37dee7261fe48
+    locator:
+      page: 4
+      section: "Figure 1 notes"
+    supporting_passage_hash: ba19aeabcbb1f1507daf7c05cef6b3e80a02a106898ff2320033d1425dfc7f38
+    status: claim_verified
+    extractor_principal: pilot8-extractor
+    verifier_principal: pilot8-evidence-verifier-v1
+    verified_at: 2026-08-09T17:06:07Z
+  - claim_id: claim-002
+    normalized_claim: "The synthesis unit is an effect-size estimate nested within a primary evaluation and policy scheme."
+    source_item_key: UNTRYVQ3
+    source_attachment_key: 4JHFKY4D
+    source_content_hash: 07de20c699c435e645d587ccdc222b1eb024cf11c0a7d7c0fcf37dee7261fe48
+    locator:
+      page: 1
+      section: "Abstract"
+    supporting_passage_hash: 37fa5cf70fa38f2511ff4bd33d5ecf83002a1036b6b03d56d4186cc68270572f
+    status: claim_verified
+    extractor_principal: pilot8-extractor
+    verifier_principal: pilot8-evidence-verifier-v1
+    verified_at: 2026-08-09T17:06:07Z
+  - claim_id: claim-003
+    normalized_claim: "The common outcome is a percentage change in emissions relative to a counterfactual."
+    source_item_key: UNTRYVQ3
+    source_attachment_key: 4JHFKY4D
+    source_content_hash: 07de20c699c435e645d587ccdc222b1eb024cf11c0a7d7c0fcf37dee7261fe48
+    locator:
+      page: 2
+      section: "Introduction and results overview"
+    supporting_passage_hash: 2b35a7dc8707291f9d446c1b88c563b40dcc3e493d37f673583b83fd460347b4
+    status: claim_verified
+    extractor_principal: pilot8-extractor
+    verifier_principal: pilot8-evidence-verifier-v1
+    verified_at: 2026-08-09T17:06:07Z
+  - claim_id: claim-004
+    normalized_claim: "The corpus harmonizes hundreds of effect sizes from dozens of reviewed articles across multiple policy schemes."
+    source_item_key: UNTRYVQ3
+    source_attachment_key: 4JHFKY4D
+    source_content_hash: 07de20c699c435e645d587ccdc222b1eb024cf11c0a7d7c0fcf37dee7261fe48
+    locator:
+      page: 3
+      section: "Results"
+    supporting_passage_hash: c82433fd1f6e79571ca6226fce69a60cb76e0654828db3c4620c7dea799d453c
+    status: claim_verified
+    extractor_principal: pilot8-extractor
+    verifier_principal: pilot8-evidence-verifier-v1
+    verified_at: 2026-08-09T17:06:07Z
+  - claim_id: claim-005
+    normalized_claim: "Eligibility requires a causal evaluation of effects on emissions."
+    source_item_key: UNTRYVQ3
+    source_attachment_key: 4JHFKY4D
+    source_content_hash: 07de20c699c435e645d587ccdc222b1eb024cf11c0a7d7c0fcf37dee7261fe48
+    locator:
+      page: 8
+      section: "Methods: Screening and eligibility"
+    supporting_passage_hash: 44bc375f6ab00127e959a6b856fc4ae1cb2ccf68f3555bbefcf480f50d4a4980
+    status: claim_verified
+    extractor_principal: pilot8-extractor
+    verifier_principal: pilot8-evidence-verifier-v1
+    verified_at: 2026-08-09T17:06:07Z
+  - claim_id: claim-006
+    normalized_claim: "The quantitative synthesis depends on the available primary evidence."
+    source_item_key: UNTRYVQ3
+    source_attachment_key: 4JHFKY4D
+    source_content_hash: 07de20c699c435e645d587ccdc222b1eb024cf11c0a7d7c0fcf37dee7261fe48
+    locator:
+      page: 8
+      section: "Methods: Limitations"
+    supporting_passage_hash: 22d422f691ce54ad099f96406e72b1782fdfb894185024bef54712b3d598d0dd
+    status: claim_verified
+    extractor_principal: pilot8-extractor
+    verifier_principal: pilot8-evidence-verifier-v1
+    verified_at: 2026-08-09T17:06:07Z

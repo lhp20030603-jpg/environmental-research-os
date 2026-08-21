@@ -1,0 +1,1 @@
+{"schema_version":"personal.policy-artifact.v1","policy_kind":"rubric","policy_version":"1","rules":[{"rule_id":"rubric-01-noncompensatory","requirement":"Critical and Important findings remain individually visible and cannot be averaged away."}]}

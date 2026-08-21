@@ -1,0 +1,22 @@
+{
+  "schema_version": "econometrics.v03-exit-corpus.v1",
+  "manifest_id": "v03-wave1-local",
+  "cases": [
+    {"case_id":"green-rct","family":"rct-itt","role":"green","file":"runner/green-rct.yaml"},
+    {"case_id":"green-did","family":"did-event-study","role":"green","file":"runner/green-did.yaml"},
+    {"case_id":"green-rdd","family":"rdd-local-linear","role":"green","file":"runner/green-rdd.yaml"},
+    {"case_id":"green-iv","family":"iv-2sls","role":"green","file":"runner/green-iv.yaml"},
+    {"case_id":"green-scm","family":"synthetic-control","role":"green","file":"runner/green-scm.yaml"},
+    {"case_id":"green-measurement","family":"environmental-measurement","role":"green","file":"runner/green-measurement.yaml"},
+    {"case_id":"green-meta","family":"meta-analysis","role":"green","file":"runner/green-meta.yaml"},
+    {"case_id":"green-panel","family":"panel-fe","role":"green","file":"runner/green-panel.yaml"},
+    {"case_id":"fail-rct-attrition","family":"rct-itt","role":"assumption-failure","file":"runner/fail-rct-attrition.yaml"},
+    {"case_id":"fail-did-pretrend","family":"did-event-study","role":"assumption-failure","file":"runner/fail-did-pretrend.yaml"},
+    {"case_id":"fail-rdd-support","family":"rdd-local-linear","role":"assumption-failure","file":"runner/fail-rdd-support.yaml"},
+    {"case_id":"fail-iv-weak-instrument","family":"iv-2sls","role":"assumption-failure","file":"runner/fail-iv-weak-instrument.yaml"},
+    {"case_id":"fail-scm-prefit","family":"synthetic-control","role":"assumption-failure","file":"runner/fail-scm-prefit.yaml"},
+    {"case_id":"fail-measurement-unit","family":"environmental-measurement","role":"assumption-failure","file":"runner/fail-measurement-unit.yaml"},
+    {"case_id":"fail-meta-influence","family":"meta-analysis","role":"assumption-failure","file":"runner/fail-meta-influence.yaml"},
+    {"case_id":"integrity-output-tamper","family":"rct-itt","role":"integrity-failure","file":"runner/integrity-output-tamper.yaml"}
+  ]
+}

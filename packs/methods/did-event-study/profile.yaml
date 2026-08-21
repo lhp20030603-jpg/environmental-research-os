@@ -1,0 +1,34 @@
+profile_id: did-event-study
+version: 0.2.0
+family: difference_in_differences
+compatible_estimands:
+  - causal
+required_data_structures:
+  - panel
+  - repeated_cross_section
+required_features:
+  - treatment_timing_variation
+  - untreated_comparison
+identifying_assumptions:
+  - In the absence of treatment, the selected comparison units would provide the relevant counterfactual trend for each treatment cohort.
+  - Treatment timing is not driven by unmeasured time-varying shocks that differentially affect the outcome on the event-time horizon.
+  - Anticipation and treatment-effect heterogeneity are represented rather than silently absorbed by a restrictive aggregation.
+incompatibility_rules:
+  - No untreated or not-yet-treated observations support the cohort and time comparisons required by the estimand.
+  - Treatment adoption and outcome timing are too coarsely measured to establish a defensible pre-treatment period.
+mandatory_diagnostics:
+  - Plot cohort-specific outcome histories and event-time support, including the number of observations contributing at each horizon.
+  - Examine pre-treatment coefficient patterns and their uncertainty without treating failure to reject as proof of parallel trends.
+  - Audit treatment reversals, anticipation windows, composition changes, and sensitivity to comparison-group definitions.
+falsification_checks:
+  - Reassign treatment to a clearly pre-policy placebo date and assess whether a spurious event pattern appears.
+fallback_profiles:
+  - synthetic-control
+analysis_plan_fields:
+  - Treatment cohorts, adoption dates, reversals, anticipation window, and exposure definition
+  - Cohort-time estimand and rules for comparison-group eligibility
+  - Event-time support, aggregation weights, and treatment-effect heterogeneity
+  - Pre-trend, composition, spillover, and concurrent-policy sensitivity analyses
+methodological_references:
+  - DOI:10.1016/j.jeconom.2020.12.001
+estimator_entrypoint: null

@@ -1,0 +1,23 @@
+case_id: pilot-case-007
+source_sheet_ref:
+  artifact_id: curator-source-sheet
+  artifact_version: 1
+  content_hash: 2906c7070a9aafc751d4b900aa1b14c06550a127d41e96fb05f191521e75abfe
+blinded_brief_ref:
+  artifact_id: blinded-brief
+  artifact_version: 1
+  content_hash: eabfcbd4f23f46c7b8acb473451ec62c64698f6dc38e7d116983a9f7cb24debb
+entries:
+  - claim_id: claim-001
+    fact_id: fact-001
+  - claim_id: claim-002
+    fact_id: fact-002
+  - claim_id: claim-003
+    fact_id: fact-003
+  - claim_id: claim-004
+    fact_id: fact-004
+  - claim_id: claim-005
+    fact_id: fact-005
+  - claim_id: claim-006
+    fact_id: fact-006
+mapper_principal: pilot8-masker

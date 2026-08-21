@@ -1,0 +1,51 @@
+schema_version: "1.0"
+case_id: pilot-case-001
+source_sheet_ref:
+  artifact_id: curator-source-sheet
+  artifact_version: 1
+  content_hash: 1f13477ceb0b9944d83ba9fd2f7d06c39ee0fb229886f2ba36ef1891b873a60d
+policy_setting: A utility repeatedly mails energy-use feedback.
+population: Residential utility customers across multiple service areas.
+unit: Customer account observed repeatedly over time.
+treatment_or_exposure: Designated message-delivery schedules compared with a no-message condition.
+timing: Delivery recurs on several cadences, with a later discontinuation period for a subset.
+candidate_outcomes:
+  - Metered electricity consumption.
+  - Self-reported conservation actions.
+data_structures:
+  - Household-clustered administrative analysis.
+  - Supplementary cross-sectional telephone surveys.
+available_variables:
+  - Intervention-group indicator.
+  - Message-delivery cadence.
+  - Event time relative to delivery.
+  - Baseline electricity use.
+  - Weather measures.
+institutional_rules:
+  - Accounts are observed in designated intervention and comparison groups.
+  - Message schedules recur monthly, quarterly, or every two months.
+constraints:
+  - The stored attachment does not document the original allocation algorithm.
+  - Supplementary telephone-survey completion is low.
+facts:
+  - fact_id: fact-001
+    statement: Energy-use feedback is mailed repeatedly.
+    fact_kind: timing
+  - fact_id: fact-002
+    statement: Customer accounts are observed in designated intervention and comparison groups at multiple sites.
+    fact_kind: unit
+  - fact_id: fact-003
+    statement: The principal administrative outcome is metered electricity use per day.
+    fact_kind: outcome
+  - fact_id: fact-004
+    statement: Robust uncertainty estimates are clustered by household.
+    fact_kind: data
+  - fact_id: fact-005
+    statement: Delivery cadence varies across three recurring schedules.
+    fact_kind: institution
+  - fact_id: fact-006
+    statement: Supplementary telephone-survey completion is low.
+    fact_kind: constraint
+missing_facts:
+  - The original allocation algorithm is not documented in the stored attachment.
+masker_principal: pilot8-masker

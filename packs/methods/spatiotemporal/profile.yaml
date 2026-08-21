@@ -1,0 +1,34 @@
+profile_id: spatiotemporal
+version: 0.2.0
+family: spatiotemporal_analysis
+compatible_estimands:
+  - causal
+  - descriptive
+required_data_structures:
+  - spatial
+  - panel
+  - raster
+required_features:
+  - georeferenced_measurement
+identifying_assumptions:
+  - Coordinate systems, spatial supports, temporal windows, and measurement processes are aligned with the target phenomenon.
+  - Residual spatial and temporal dependence is represented adequately for the intended descriptive or causal uncertainty statement.
+  - Any causal interpretation has an explicit counterfactual design beyond the presence of spatial and temporal variation alone.
+incompatibility_rules:
+  - Georeferencing or temporal metadata are too incomplete to align exposure, outcome, and analysis units.
+  - The proposed causal claim relies only on a flexible spatiotemporal surface without an identification argument.
+mandatory_diagnostics:
+  - Audit coordinate reference systems, spatial joins, temporal alignment, missing regions, and changes in measurement coverage.
+  - Examine residual spatial and temporal dependence across substantively relevant distance and lag scales.
+  - Assess sensitivity to spatial support, aggregation, boundary, interpolation, and measurement-error choices.
+falsification_checks:
+  - Shift exposure to an implausible spatial buffer or temporal lead and assess whether the planned relationship persists.
+fallback_profiles: []
+analysis_plan_fields:
+  - Spatial support, coordinate system, temporal resolution, and unit harmonization
+  - Measurement process, coverage changes, interpolation, and missing-data treatment
+  - Dependence structure, boundary conditions, and uncertainty propagation
+  - Counterfactual design and identifying restrictions for any causal claim
+methodological_references:
+  - ISBN:9780471692744
+estimator_entrypoint: null

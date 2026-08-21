@@ -1,0 +1,12 @@
+{
+  "cases": [
+    {"case_id":"fail-rct-attrition","role":"assumption-failure","expected_code":"RCT_ATTRITION_EXCEEDED"},
+    {"case_id":"fail-did-pretrend","role":"assumption-failure","expected_code":"DID_PRETREND_EXCEEDED"},
+    {"case_id":"fail-rdd-support","role":"assumption-failure","expected_code":"RDD_SUPPORT_INSUFFICIENT"},
+    {"case_id":"fail-iv-weak-instrument","role":"assumption-failure","expected_code":"IV_WEAK_INSTRUMENT"},
+    {"case_id":"fail-scm-prefit","role":"assumption-failure","expected_code":"SCM_PREFIT_EXCEEDED"},
+    {"case_id":"fail-measurement-unit","role":"assumption-failure","expected_code":"MEASUREMENT_UNIT_MISMATCH"},
+    {"case_id":"fail-meta-influence","role":"assumption-failure","expected_code":"META_INFLUENCE_EXCEEDED"},
+    {"case_id":"integrity-output-tamper","role":"integrity-failure","expected_code":"EVIDENCE_TAMPERED"}
+  ]
+}

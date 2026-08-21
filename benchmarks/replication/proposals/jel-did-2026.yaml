@@ -1,0 +1,44 @@
+schema_version: tier2-dry-proposal-v1
+proposal_kind: dry
+package_id: jel-did-2026
+admission_status: proposed
+target_work:
+  title: "Difference-in-Differences Designs: A Practitioner's Guide"
+  authors:
+    - Andrew Baker
+    - Brantly Callaway
+    - Scott Cunningham
+    - Andrew Goodman-Bacon
+    - Pedro H. C. Sant'Anna
+  journal: Journal of Economic Literature
+  publication_year: 2026
+  volume: 64
+  issue: 2
+  pages: 498-557
+  doi: 10.1257/jel.20251650
+  article_url: https://www.aeaweb.org/articles?id=10.1257/jel.20251650
+  package_landing_url: https://github.com/pedrohcgs/JEL-DiD
+runtime_requirement:
+  language: R
+  profile_id: r-did-v1
+metadata_verified_on: "2026-08-10"
+metadata_source_urls:
+  - https://www.aeaweb.org/articles?id=10.1257/jel.20251650
+  - https://github.com/pedrohcgs/JEL-DiD
+unresolved_blockers:
+  - code: archive-direct-locator-unapproved
+    detail: No exact immutable acquisition URL has been reviewed or approved.
+  - code: archive-sha256-unobserved
+    detail: No archive has been acquired, inventoried, or hashed.
+  - code: license-scope-unverified
+    detail: Code, data, and bundled-material license scopes require exact-file review.
+  - code: self-contained-status-unverified
+    detail: Public instructions describe external data retrieval that requires boundary review.
+  - code: declared-input-inventory-incomplete
+    detail: Required package files have not been enumerated into an intake declaration.
+  - code: expected-output-map-incomplete
+    detail: Author outputs and comparison tolerances have not been predeclared.
+  - code: pinned-runtime-image-unapproved
+    detail: No executable R image digest has been proposed or approved.
+  - code: runtime-lock-compatibility-unverified
+    detail: The public runtime lock has not been checked against the isolated R profile.

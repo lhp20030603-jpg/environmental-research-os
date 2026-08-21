@@ -1,0 +1,10 @@
+id: pilot-case-003
+version: "1.0"
+tier: 1
+method_family: rdd
+license: lawfully-held-source-metadata-and-hash-only
+source_sheet: curator-source-sheet.yaml
+claim_fact_map: claim-fact-map.yaml
+blinded_brief: blinded-brief.yaml
+rubric_version: blind-method-v1
+executes_replication_package: false

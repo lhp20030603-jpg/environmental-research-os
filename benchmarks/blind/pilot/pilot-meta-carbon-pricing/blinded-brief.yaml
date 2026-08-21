@@ -1,0 +1,52 @@
+schema_version: "1.0"
+case_id: pilot-case-008
+source_sheet_ref:
+  artifact_id: curator-source-sheet
+  artifact_version: 1
+  content_hash: 33e94a235db843794685430e53835cf0538c8352df9d86182d655f79f2920e74
+policy_setting: "A structured evidence synthesis evaluates market-based emissions obligations across jurisdictions."
+population: "Causal ex-post policy evaluations reporting emissions outcomes."
+unit: "Effect-size estimate nested within a primary study and policy scheme."
+treatment_or_exposure: "Introduction of an explicit emissions price or tradable-allowance obligation."
+timing: "Effects are indexed to policy introduction and the post-introduction observation period."
+candidate_outcomes:
+  - "Percentage change in emissions relative to a counterfactual."
+  - "Risk-of-bias assessment."
+  - "Between-study heterogeneity."
+data_structures:
+  - "Multiple effect sizes nested within studies and policy schemes."
+  - "Two-stage title-abstract and full-text screening records."
+available_variables:
+  - "Standardized emissions effect size."
+  - "Standard error or precision."
+  - "Policy context and design attributes."
+  - "Study design and data attributes."
+  - "Risk-of-bias indicators."
+institutional_rules:
+  - "Eligible studies must estimate a causal relationship between the policy and emissions."
+  - "Primary estimates are harmonized to a common percentage-change scale."
+constraints:
+  - "The quantitative synthesis depends on the available primary evidence."
+  - "Effects within a study are statistically dependent."
+facts:
+  - fact_id: fact-001
+    statement: "Each estimate is aligned to policy introduction and a post-policy period."
+    fact_kind: timing
+  - fact_id: fact-002
+    statement: "The analytic unit is an effect size nested within a study and scheme."
+    fact_kind: unit
+  - fact_id: fact-003
+    statement: "Emissions change relative to a counterfactual is the common outcome."
+    fact_kind: outcome
+  - fact_id: fact-004
+    statement: "The corpus contains many effect sizes from reviewed articles across multiple policy schemes."
+    fact_kind: data
+  - fact_id: fact-005
+    statement: "Eligibility requires a causal evaluation of effects on emissions."
+    fact_kind: institution
+  - fact_id: fact-006
+    statement: "The quantitative synthesis depends on the available primary evidence."
+    fact_kind: constraint
+missing_facts:
+  - "Comparable price-elasticity estimates are sparse."
+masker_principal: pilot8-masker

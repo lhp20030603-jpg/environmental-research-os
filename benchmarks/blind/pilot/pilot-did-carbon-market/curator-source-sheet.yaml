@@ -1,0 +1,115 @@
+schema_version: "1.0"
+case_id: pilot-case-002
+method_family: did_event_study
+zotero_item_key: R8ZTRJHE
+zotero_attachment_key: 3472NTUF
+doi: 10.1073/pnas.2109912118
+title: "The effectiveness of China’s regional carbon market pilots in reducing firm emissions"
+authors:
+  - "Jingbo Cui"
+  - "Chunhua Wang"
+  - "Junjie Zhang"
+  - "Yang Zheng"
+source_content_hash: 20884cd8e916805e4aa7d1450c24ae67190e12c6865690171af223499d056934
+source_generation: 1
+institutional_context:
+  - "Regional emissions-market pilots covered threshold-eligible firms in selected sectors and jurisdictions."
+  - "The policy had an announcement phase followed by an allowance-trading phase."
+restricted_terms:
+  - term: "Cui"
+    rationale: source-specific identity, method, dataset, or result marker
+  - term: "Wang"
+    rationale: source-specific identity, method, dataset, or result marker
+  - term: "Zhang"
+    rationale: source-specific identity, method, dataset, or result marker
+  - term: "Zheng"
+    rationale: source-specific identity, method, dataset, or result marker
+  - term: "China’s regional ETS"
+    rationale: source-specific identity, method, dataset, or result marker
+  - term: "CNTSD"
+    rationale: source-specific identity, method, dataset, or result marker
+  - term: "matched difference-in-differences"
+    rationale: source-specific identity, method, dataset, or result marker
+  - term: "16.7%"
+    rationale: source-specific identity, method, dataset, or result marker
+distinctive_phrase_hashes:
+  - d609187fb5f187b3268410dc9e063282696375ee159409f19074061f3d485548
+claims:
+  - claim_id: claim-001
+    normalized_claim: "Regional market pilots were announced in 2011 and allowance trading began in 2013."
+    source_item_key: R8ZTRJHE
+    source_attachment_key: 3472NTUF
+    source_content_hash: 20884cd8e916805e4aa7d1450c24ae67190e12c6865690171af223499d056934
+    locator:
+      page: 1
+      section: "Introduction"
+    supporting_passage_hash: c8883328ac38eaea58bc357dcb9011193a230261f3321d658fa16bf6a5ff57d4
+    status: claim_verified
+    extractor_principal: pilot8-extractor
+    verifier_principal: pilot8-evidence-verifier-v1
+    verified_at: 2026-08-09T17:06:07Z
+  - claim_id: claim-002
+    normalized_claim: "Covered units are firms above regulatory thresholds in selected sectors across seven jurisdictions."
+    source_item_key: R8ZTRJHE
+    source_attachment_key: 3472NTUF
+    source_content_hash: 20884cd8e916805e4aa7d1450c24ae67190e12c6865690171af223499d056934
+    locator:
+      page: 2
+      section: "Policy setting and empirical approach"
+    supporting_passage_hash: 96a023848c17c4697cbb0592b2d92665e82ca7a0897ef7cb90cde04e6fd286a3
+    status: claim_verified
+    extractor_principal: pilot8-extractor
+    verifier_principal: pilot8-evidence-verifier-v1
+    verified_at: 2026-08-09T17:06:07Z
+  - claim_id: claim-003
+    normalized_claim: "Candidate outcomes include firm carbon emissions and firm economic outcomes."
+    source_item_key: R8ZTRJHE
+    source_attachment_key: 3472NTUF
+    source_content_hash: 20884cd8e916805e4aa7d1450c24ae67190e12c6865690171af223499d056934
+    locator:
+      page: 1
+      section: "Abstract"
+    supporting_passage_hash: 23787ae3bce49ca81fdd2066394b33b5caee3a25be109dd7bcd5565f3352db08
+    status: claim_verified
+    extractor_principal: pilot8-extractor
+    verifier_principal: pilot8-evidence-verifier-v1
+    verified_at: 2026-08-09T17:06:07Z
+  - claim_id: claim-004
+    normalized_claim: "The evidence uses an annual firm panel covering manufacturing and public-utility sectors from 2009 through 2015."
+    source_item_key: R8ZTRJHE
+    source_attachment_key: 3472NTUF
+    source_content_hash: 20884cd8e916805e4aa7d1450c24ae67190e12c6865690171af223499d056934
+    locator:
+      page: 1
+      section: "Abstract"
+    supporting_passage_hash: d38725641d4983b65a5d7d720e622feaf3710704df2dd9d4b60d52d556bb11e2
+    status: claim_verified
+    extractor_principal: pilot8-extractor
+    verifier_principal: pilot8-evidence-verifier-v1
+    verified_at: 2026-08-09T17:06:07Z
+  - claim_id: claim-005
+    normalized_claim: "Identification compares regulated firms with matched firms and assesses whether their pre-policy emissions trends are similar."
+    source_item_key: R8ZTRJHE
+    source_attachment_key: 3472NTUF
+    source_content_hash: 20884cd8e916805e4aa7d1450c24ae67190e12c6865690171af223499d056934
+    locator:
+      page: 2
+      section: "Policy setting and empirical approach"
+    supporting_passage_hash: 5f3cc0727fb2c4da68d9a26e11cc69782b233491116660abfe369410499439e9
+    status: claim_verified
+    extractor_principal: pilot8-extractor
+    verifier_principal: pilot8-evidence-verifier-v1
+    verified_at: 2026-08-09T17:06:07Z
+  - claim_id: claim-006
+    normalized_claim: "Available emissions omit greenhouse gases beyond carbon dioxide."
+    source_item_key: R8ZTRJHE
+    source_attachment_key: 3472NTUF
+    source_content_hash: 20884cd8e916805e4aa7d1450c24ae67190e12c6865690171af223499d056934
+    locator:
+      page: 5
+      section: "Data and Methods"
+    supporting_passage_hash: 2dc0b3ccc2c594512c5e023b289e64d9c2effd2fcf5b19a9837d052d4dc33e54
+    status: claim_verified
+    extractor_principal: pilot8-extractor
+    verifier_principal: pilot8-evidence-verifier-v1
+    verified_at: 2026-08-09T17:06:07Z

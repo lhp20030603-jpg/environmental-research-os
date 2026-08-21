@@ -1,0 +1,32 @@
+profile_id: rct
+version: 0.2.0
+family: randomized_experiment
+compatible_estimands:
+  - causal
+required_data_structures:
+  - individual
+  - cluster_panel
+required_features:
+  - randomized_assignment
+identifying_assumptions:
+  - Assignment is random at the declared unit and implemented independently of potential outcomes.
+  - Outcomes for each unit are unaffected by other units' assignments unless interference is explicitly represented in the estimand.
+  - Treatment receipt, attrition, and outcome measurement do not introduce unaddressed post-randomization selection.
+incompatibility_rules:
+  - Assignment was not randomized or its randomization mechanism cannot be reconstructed.
+  - The estimand requires spillovers that the assignment and measurement design cannot distinguish.
+mandatory_diagnostics:
+  - Audit allocation records, unit of randomization, stratification, and any deviations from the declared assignment mechanism.
+  - Examine differential attrition, missing outcomes, treatment receipt, and contamination by assignment arm.
+  - Report precision and effective sample size at the randomization level without treating balance as proof of randomization.
+falsification_checks:
+  - Test whether assignment predicts clearly pre-treatment outcomes while interpreting chance imbalances in light of multiple testing.
+fallback_profiles: []
+analysis_plan_fields:
+  - Experimental unit, assignment mechanism, allocation probability, and stratification variables
+  - Causal estimand under assignment and treatment-receipt definitions
+  - Interference, noncompliance, attrition, missingness, and contamination handling
+  - Randomization-level uncertainty and multiplicity strategy
+methodological_references:
+  - DOI:10.1016/S1573-4471(07)04061-2
+estimator_entrypoint: null

@@ -1,0 +1,49 @@
+schema_version: "1.0"
+case_id: pilot-case-006
+source_sheet_ref:
+  artifact_id: curator-source-sheet
+  artifact_version: 1
+  content_hash: 4d80e4fad8916dbe96892471a1e3da8ef2038bfafe220fe52d9c6a4e90bcac50
+policy_setting: "Local environmental quality is capitalized through residential location, housing, and labor markets."
+population: "Households choosing among a broad set of metropolitan areas."
+unit: "Household choice among metropolitan alternatives."
+treatment_or_exposure: "Ambient particulate concentration in the chosen metropolitan area."
+timing: "Two census waves separated by a decade."
+candidate_outcomes:
+  - "Housing costs."
+  - "Wages and household income."
+data_structures:
+  - "Repeated metropolitan cross-sections."
+  - "Household-level location-choice records linked to area attributes."
+available_variables:
+  - "Ambient particulate concentration."
+  - "Housing price and wage measures."
+  - "Birth state and current residence."
+  - "Distance from birthplace."
+  - "Metropolitan economic and demographic attributes."
+institutional_rules:
+  - "Moving can entail monetary and psychological costs."
+  - "Environmental quality may covary with unobserved local economic activity."
+constraints:
+  - "The data record birthplace and current residential location."
+facts:
+  - fact_id: fact-001
+    statement: "The empirical comparison uses two metropolitan census waves."
+    fact_kind: timing
+  - fact_id: fact-002
+    statement: "Households choose among a broad set of metropolitan areas."
+    fact_kind: unit
+  - fact_id: fact-003
+    statement: "Housing prices and wages are observed across locations."
+    fact_kind: outcome
+  - fact_id: fact-004
+    statement: "Census microdata provide household location choices."
+    fact_kind: data
+  - fact_id: fact-005
+    statement: "Moving can entail monetary and psychological costs."
+    fact_kind: institution
+  - fact_id: fact-006
+    statement: "The data record birthplace and current residential location."
+    fact_kind: constraint
+missing_facts: []
+masker_principal: pilot8-masker

@@ -1,0 +1,34 @@
+profile_id: synthetic-control
+version: 0.2.0
+family: synthetic_control
+compatible_estimands:
+  - causal
+required_data_structures:
+  - panel
+required_features:
+  - one_or_few_treated_units
+  - donor_pool
+  - pre_treatment_periods
+identifying_assumptions:
+  - A weighted combination of untreated donor units can approximate the treated unit's untreated outcome path.
+  - Donor outcomes are not affected by treatment spillovers, anticipation, or interventions synchronized with the treated unit.
+  - The pre-treatment period is sufficiently informative about outcome dynamics and relevant unobserved factors.
+incompatibility_rules:
+  - The donor pool lacks overlap or credible untreated units after applying pre-specified exclusion rules.
+  - Treatment occurs before enough pre-treatment outcomes are observed to assess fit and stability.
+mandatory_diagnostics:
+  - Report pre-treatment fit, predictor balance, donor weights, and leave-one-donor-out sensitivity.
+  - Compare the treated-unit gap with in-space and in-time placebo distributions while noting limited-placebo uncertainty.
+  - Audit donor contamination, spillovers, concurrent interventions, and sensitivity to predictor windows.
+falsification_checks:
+  - Assign placebo treatment to eligible donor units and compare their post-period gaps under the same design rules.
+fallback_profiles:
+  - did-event-study
+analysis_plan_fields:
+  - Treated unit, intervention date, anticipation period, and target effect path
+  - Donor-pool eligibility, contamination exclusions, and spillover boundaries
+  - Predictor set, pre-treatment windows, fit criteria, and weight transparency
+  - Placebo, leave-one-out, and alternative-donor sensitivity design
+methodological_references:
+  - DOI:10.1198/jasa.2009.ap08746
+estimator_entrypoint: null

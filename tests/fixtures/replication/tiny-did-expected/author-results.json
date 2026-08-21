@@ -1,0 +1,8 @@
+{
+  "output/table-1.csv": {
+    "expected_path": "expected/table-1.csv",
+    "comparator": "csv_numeric",
+    "absolute_tolerance": 0.001,
+    "relative_tolerance": 0.0
+  }
+}

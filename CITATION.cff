@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this research prototype, please cite the software."
+title: "Environmental Research OS"
+type: software
+authors:
+  - family-names: "Liu"
+    given-names: "Haopeng"
+version: 0.2.0
+date-released: 2026-08-21
+license: MIT
+repository-code: "https://github.com/lhp20030603-jpg/environmental-research-os"
+abstract: >-
+  A personal-pilot, artifact-driven workflow for environmental economics and
+  environmental policy research, including research design, local-data
+  econometrics, evidence-bound paper construction, and governed run assembly.
+keywords:
+  - environmental economics
+  - environmental policy
+  - research workflow
+  - reproducible research
+  - econometrics

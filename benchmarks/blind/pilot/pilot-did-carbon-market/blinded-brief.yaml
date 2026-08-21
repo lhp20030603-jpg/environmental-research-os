@@ -1,0 +1,50 @@
+schema_version: "1.0"
+case_id: pilot-case-002
+source_sheet_ref:
+  artifact_id: curator-source-sheet
+  artifact_version: 1
+  content_hash: cba93238849001891faea3d75565283fd88ee349266d723bbe7c4da694ce2337
+policy_setting: "A market-based emissions rule is introduced in selected jurisdictions and sectors."
+population: "Threshold-eligible manufacturing and utility firms with comparable uncovered firms."
+unit: "Firm-year."
+treatment_or_exposure: "Eligibility for the rule after jurisdiction-specific announcement and operating dates."
+timing: "Annual observations span a pre-policy period, an announcement phase, and an operating phase."
+candidate_outcomes:
+  - "Firm carbon emissions."
+  - "Firm economic outcomes."
+data_structures:
+  - "Annual firm panel across covered and uncovered jurisdictions."
+  - "Matched comparison sample constructed from pre-policy firm characteristics."
+available_variables:
+  - "Eligibility status."
+  - "Jurisdiction, sector, and calendar year."
+  - "Energy use by fuel."
+  - "Output and production inputs."
+  - "Firm carbon emissions."
+institutional_rules:
+  - "Coverage is determined by sector-specific regulatory thresholds."
+  - "Comparable firms should have similar pre-policy emissions trends."
+constraints:
+  - "Greenhouse gases other than carbon dioxide are outside the measured boundary."
+facts:
+  - fact_id: fact-001
+    statement: "The policy has a distinct announcement phase followed by an operating phase."
+    fact_kind: timing
+  - fact_id: fact-002
+    statement: "Covered observations are threshold-eligible firms in selected sectors and jurisdictions."
+    fact_kind: unit
+  - fact_id: fact-003
+    statement: "Firm carbon emissions and firm economic outcomes are jointly observable."
+    fact_kind: outcome
+  - fact_id: fact-004
+    statement: "Annual firm records provide observations before and after policy adoption."
+    fact_kind: data
+  - fact_id: fact-005
+    statement: "Pre-policy emissions trends can be checked against matched comparison firms."
+    fact_kind: institution
+  - fact_id: fact-006
+    statement: "The emissions boundary excludes greenhouse gases other than carbon dioxide."
+    fact_kind: constraint
+missing_facts:
+  - "Exact threshold values vary by jurisdiction and sector."
+masker_principal: pilot8-masker

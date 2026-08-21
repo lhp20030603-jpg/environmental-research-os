@@ -1,0 +1,11 @@
+{"schema_version":"econometrics.valuation-exit-corpus.v1","manifest_id":"valuation-core-local","cases":[
+{"case_id":"green-hedonic","family":"hedonic-pricing","role":"green","file":"runner/green-hedonic.yaml"},
+{"case_id":"green-travel-cost","family":"travel-cost","role":"green","file":"runner/green-travel-cost.yaml"},
+{"case_id":"green-cv","family":"contingent-valuation","role":"green","file":"runner/green-cv.yaml"},
+{"case_id":"green-dce","family":"dce-clogit","role":"green","file":"runner/green-dce.yaml"},
+{"case_id":"fail-hedonic-sensitivity","family":"hedonic-pricing","role":"scientific-failure","file":"runner/fail-hedonic-sensitivity.yaml"},
+{"case_id":"fail-travel-dispersion","family":"travel-cost","role":"scientific-failure","file":"runner/fail-travel-dispersion.yaml"},
+{"case_id":"fail-cv-wtp","family":"contingent-valuation","role":"scientific-failure","file":"runner/fail-cv-wtp.yaml"},
+{"case_id":"fail-dce-choice-set","family":"dce-clogit","role":"scientific-failure","file":"runner/fail-dce-choice-set.yaml"},
+{"case_id":"integrity-output-tamper","family":"hedonic-pricing","role":"integrity-failure","file":"runner/integrity-output-tamper.yaml"}
+]}

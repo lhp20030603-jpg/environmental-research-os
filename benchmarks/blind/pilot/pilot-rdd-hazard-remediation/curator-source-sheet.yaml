@@ -1,0 +1,113 @@
+schema_version: "1.0"
+case_id: pilot-case-003
+method_family: rdd
+zotero_item_key: SUIXHCJJ
+zotero_attachment_key: 7JCUFQKU
+doi: 10.1162/qjec.2008.123.3.951
+title: "Does Hazardous Waste Matter? Evidence from the Housing Market and the Superfund Program"
+authors:
+  - "Michael Greenstone"
+  - "Justin Gallagher"
+source_content_hash: 2bf99ad0e07829d42a5ab8471889d343b2a0705e8635284c89087ffe766bd7ea
+source_generation: 1
+institutional_context:
+  - "A federal hazard score determined initial eligibility for remedial cleanup funding."
+  - "Housing-market changes were observed around scored hazardous-waste sites."
+restricted_terms:
+  - term: "Greenstone"
+    rationale: source-specific identity, method, dataset, or result marker
+  - term: "Gallagher"
+    rationale: source-specific identity, method, dataset, or result marker
+  - term: "Superfund"
+    rationale: source-specific identity, method, dataset, or result marker
+  - term: "Hazardous Ranking System"
+    rationale: source-specific identity, method, dataset, or result marker
+  - term: "HRS"
+    rationale: source-specific identity, method, dataset, or result marker
+  - term: "NPL"
+    rationale: source-specific identity, method, dataset, or result marker
+  - term: "regression discontinuity"
+    rationale: source-specific identity, method, dataset, or result marker
+  - term: "28.5"
+    rationale: source-specific identity, method, dataset, or result marker
+distinctive_phrase_hashes:
+  - 548f0f089180920bba827db8c99632f60e02fccd85d6d146e8fda28e87c47e66
+claims:
+  - claim_id: claim-001
+    normalized_claim: "Sites above the fixed hazard-score cutoff entered the initial program list in 1983."
+    source_item_key: SUIXHCJJ
+    source_attachment_key: 7JCUFQKU
+    source_content_hash: 2bf99ad0e07829d42a5ab8471889d343b2a0705e8635284c89087ffe766bd7ea
+    locator:
+      page: 4
+      section: "Introduction"
+    supporting_passage_hash: 4249ba84cb051ddb83ceef701c407764c6aedc8ec6009bdfd6abd3166ec96cdd
+    status: claim_verified
+    extractor_principal: pilot8-extractor
+    verifier_principal: pilot8-evidence-verifier-v1
+    verified_at: 2026-08-09T17:06:07Z
+  - claim_id: claim-002
+    normalized_claim: "The core analysis unit is a census tract containing one of the scored hazardous-waste sites."
+    source_item_key: SUIXHCJJ
+    source_attachment_key: 7JCUFQKU
+    source_content_hash: 2bf99ad0e07829d42a5ab8471889d343b2a0705e8635284c89087ffe766bd7ea
+    locator:
+      page: 24
+      section: "Quasi-experimental approach based on initial scores"
+    supporting_passage_hash: 6af778588f93a838903794c17485075093b63d56f3ab5e10d118f7913e680433
+    status: claim_verified
+    extractor_principal: pilot8-extractor
+    verifier_principal: pilot8-evidence-verifier-v1
+    verified_at: 2026-08-09T17:06:07Z
+  - claim_id: claim-003
+    normalized_claim: "The primary outcome is the evolution of local housing prices between 1980 and 2000."
+    source_item_key: SUIXHCJJ
+    source_attachment_key: 7JCUFQKU
+    source_content_hash: 2bf99ad0e07829d42a5ab8471889d343b2a0705e8635284c89087ffe766bd7ea
+    locator:
+      page: 18
+      section: "Data"
+    supporting_passage_hash: 68afb39544ff56d878d5db4ede8b6b8ece2ecd4676cff59b3d905c5efeed8597
+    status: claim_verified
+    extractor_principal: pilot8-extractor
+    verifier_principal: pilot8-evidence-verifier-v1
+    verified_at: 2026-08-09T17:06:07Z
+  - claim_id: claim-004
+    normalized_claim: "The analytic sample is restricted to a subset of 2000 census tracts."
+    source_item_key: SUIXHCJJ
+    source_attachment_key: 7JCUFQKU
+    source_content_hash: 2bf99ad0e07829d42a5ab8471889d343b2a0705e8635284c89087ffe766bd7ea
+    locator:
+      page: 18
+      section: "Data"
+    supporting_passage_hash: 6d305f9983a42b50b74804084d6cb2fd1b270760f1941ab6a5b6ffad74a1379d
+    status: claim_verified
+    extractor_principal: pilot8-extractor
+    verifier_principal: pilot8-evidence-verifier-v1
+    verified_at: 2026-08-09T17:06:07Z
+  - claim_id: claim-005
+    normalized_claim: "The fixed cutoff was set after the first testing exercise."
+    source_item_key: SUIXHCJJ
+    source_attachment_key: 7JCUFQKU
+    source_content_hash: 2bf99ad0e07829d42a5ab8471889d343b2a0705e8635284c89087ffe766bd7ea
+    locator:
+      page: 9
+      section: "Institutional details"
+    supporting_passage_hash: c4b70b9106bf42f5ced768421f96bf37b8f2333625bf00c6e7f8f61d90620da9
+    status: claim_verified
+    extractor_principal: pilot8-extractor
+    verifier_principal: pilot8-evidence-verifier-v1
+    verified_at: 2026-08-09T17:06:07Z
+  - claim_id: claim-006
+    normalized_claim: "Testers could stop assigning scores once a site crossed the eligibility cutoff."
+    source_item_key: SUIXHCJJ
+    source_attachment_key: 7JCUFQKU
+    source_content_hash: 2bf99ad0e07829d42a5ab8471889d343b2a0705e8635284c89087ffe766bd7ea
+    locator:
+      page: 10
+      section: "Institutional details"
+    supporting_passage_hash: 4dbfd65014469e00f3343540afd996c9201bd12c877dbcc6b7235f935b66c490
+    status: claim_verified
+    extractor_principal: pilot8-extractor
+    verifier_principal: pilot8-evidence-verifier-v1
+    verified_at: 2026-08-09T17:06:07Z

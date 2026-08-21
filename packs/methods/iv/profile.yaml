@@ -1,0 +1,33 @@
+profile_id: iv
+version: 0.2.0
+family: instrumental_variables
+compatible_estimands:
+  - causal
+required_data_structures:
+  - cross_section
+  - panel
+required_features:
+  - excluded_instrument
+identifying_assumptions:
+  - The excluded instrument changes the exposure or treatment relevant to the stated estimand.
+  - Conditional on the declared controls, the instrument is independent of unmeasured determinants of potential outcomes.
+  - The instrument affects the outcome only through the modeled exposure and the interpretation addresses treatment-effect heterogeneity.
+incompatibility_rules:
+  - No defensible exclusion restriction links the proposed instrument to the outcome.
+  - The instrument has negligible first-stage relevance over the population supporting the target estimand.
+mandatory_diagnostics:
+  - Document first-stage direction, magnitude, uncertainty, and support rather than relying on a single threshold statistic.
+  - Map plausible direct pathways from the instrument to the outcome and assess balance on predetermined covariates.
+  - Compare the population shifted by the instrument with the target population and state external-validity limits.
+falsification_checks:
+  - Test whether the instrument predicts a predetermined outcome that cannot plausibly be affected by the modeled exposure.
+fallback_profiles:
+  - did-event-study
+analysis_plan_fields:
+  - Instrument assignment or generation mechanism and relevance pathway
+  - Exclusion restriction, independence conditions, and monotonicity interpretation
+  - Target population, complier interpretation, and heterogeneity limits
+  - Weak-identification, direct-pathway, balance, and sensitivity assessments
+methodological_references:
+  - DOI:10.1080/01621459.1996.10476902
+estimator_entrypoint: null

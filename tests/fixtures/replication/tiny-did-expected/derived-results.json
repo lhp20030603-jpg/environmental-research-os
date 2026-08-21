@@ -1,0 +1,10 @@
+{
+  "schema_version": "derived-did-event-study-v1",
+  "treatment_timing": {"first_treated_period": 2012},
+  "support": {"group_time_supported": false},
+  "balance": {"units": 2},
+  "event_time": {"reference_period": -1},
+  "twfe_event_study": {"estimates": []},
+  "callaway_santanna": {"status": "unsupported", "reason": "no cohorts"},
+  "configuration": {"outcome_column": "emissions"}
+}

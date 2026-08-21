@@ -1,0 +1,15 @@
+{
+  "schema_version": "derived-did-event-study-v1",
+  "treatment_timing": {"first_treated_period": 2012},
+  "support": {"group_time_supported": true},
+  "balance": {"units": 2},
+  "event_time": {"reference_period": -1},
+  "twfe_event_study": {"estimates": []},
+  "callaway_santanna": {
+    "status": "completed",
+    "estimates": [{"group": 2012, "time": 2013, "estimate": 0.1}],
+    "confidence_intervals": [{"group": 2012, "time": 2013, "lower": 0.0, "upper": 0.2}],
+    "configuration": {"estimator": "did::att_gt", "control_group": "nevertreated"}
+  },
+  "configuration": {"outcome_column": "emissions"}
+}

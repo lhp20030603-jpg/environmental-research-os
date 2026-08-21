@@ -1,0 +1,34 @@
+profile_id: rdd
+version: 0.2.0
+family: regression_discontinuity
+compatible_estimands:
+  - causal
+required_data_structures:
+  - cross_section
+  - panel
+required_features:
+  - known_cutoff
+  - running_variable
+identifying_assumptions:
+  - Potential outcomes evolve continuously through the cutoff over the local comparison region.
+  - Units cannot precisely manipulate the running variable around the cutoff in a way related to potential outcomes.
+  - The policy rule produces a meaningful treatment-probability discontinuity at the declared threshold.
+incompatibility_rules:
+  - The cutoff or running variable was chosen after inspecting outcome discontinuities.
+  - Other policies, measurement rules, or sample inclusion criteria change at the same cutoff and cannot be separated.
+mandatory_diagnostics:
+  - Plot outcome and treatment assignment against the running variable using transparent binning and local support summaries.
+  - Examine running-variable density and predetermined covariates around the cutoff without interpreting continuity tests as conclusive evidence.
+  - Assess sensitivity to bandwidth, functional-form, and influential-observation choices.
+falsification_checks:
+  - Evaluate placebo cutoffs where the assignment rule does not change and report the multiplicity of those checks.
+fallback_profiles:
+  - iv
+analysis_plan_fields:
+  - Running variable construction, cutoff provenance, and assignment rule
+  - Local estimand, analysis window, and treatment-probability discontinuity
+  - Bandwidth, functional-form, clustering, and discrete-score considerations
+  - Manipulation, sorting, covariate continuity, and concurrent-threshold threats
+methodological_references:
+  - DOI:10.1016/j.jeconom.2007.05.001
+estimator_entrypoint: null

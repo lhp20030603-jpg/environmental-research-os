@@ -1,0 +1,24 @@
+replication:
+  engines:
+    - identity: docker
+      executable: /opt/envresearch/reviewed/docker
+      executable_sha256: "0000000000000000000000000000000000000000000000000000000000000000"
+      endpoint: unix:///var/run/docker.sock
+    - identity: podman
+      executable: /opt/envresearch/reviewed/podman
+      executable_sha256: "0000000000000000000000000000000000000000000000000000000000000000"
+      endpoint: unix:///run/podman/podman.sock
+  trusted_workspace:
+    acquired_input_base: artifacts/replication/acquired
+    run_output_base: artifacts/replication/runs
+  progress:
+    max_growth_bytes: 268435456
+  runtime:
+    profile_id: r-did-v1
+    image_digest: ghcr.io/envresearch/r-did@sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+    nonroot_uid_gid: "10001:10001"
+  budget:
+    max_download_bytes: 1073741824
+    max_storage_bytes: 2147483648
+    max_memory_bytes: 4294967296
+    inactivity_seconds: 900

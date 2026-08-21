@@ -1,0 +1,114 @@
+schema_version: "1.0"
+case_id: pilot-case-006
+method_family: hedonic
+zotero_item_key: 5IMPC5SG
+zotero_attachment_key: XKUXI46U
+doi: 10.1016/j.jeem.2008.08.004
+title: "Migration and hedonic valuation: The case of air quality"
+authors:
+  - "Patrick Bayer"
+  - "Nathaniel Keohane"
+  - "Christopher Timmins"
+source_content_hash: ce76e6265cb2629d5d5aaa9c40ed6bda39f68c6ae205282bdeda4e81128a5c4d
+source_generation: 1
+institutional_context:
+  - "Households choose among metropolitan locations with differing environmental quality, housing costs, and wages."
+  - "Mobility costs affect how observed market gradients reveal willingness to pay."
+restricted_terms:
+  - term: "Bayer"
+    rationale: source-specific identity, method, dataset, or result marker
+  - term: "Keohane"
+    rationale: source-specific identity, method, dataset, or result marker
+  - term: "Timmins"
+    rationale: source-specific identity, method, dataset, or result marker
+  - term: "PM10"
+    rationale: source-specific identity, method, dataset, or result marker
+  - term: "source-receptor matrix"
+    rationale: source-specific identity, method, dataset, or result marker
+  - term: "hedonic valuation"
+    rationale: source-specific identity, method, dataset, or result marker
+  - term: "instrumental variables"
+    rationale: source-specific identity, method, dataset, or result marker
+  - term: "$149"
+    rationale: source-specific identity, method, dataset, or result marker
+distinctive_phrase_hashes:
+  - ffd73b9f38b6706073229c0bc5109352225ecdeec1885d9fe2b507cdab03f711
+claims:
+  - claim_id: claim-001
+    normalized_claim: "The empirical comparison uses metropolitan-area observations for 1990 and 2000."
+    source_item_key: 5IMPC5SG
+    source_attachment_key: XKUXI46U
+    source_content_hash: ce76e6265cb2629d5d5aaa9c40ed6bda39f68c6ae205282bdeda4e81128a5c4d
+    locator:
+      page: 1
+      section: "Abstract"
+    supporting_passage_hash: b2f4742bcbdccd2ac124cda1b730d5a84c9f048c7c7fe3937506823d8cb6e877
+    status: claim_verified
+    extractor_principal: pilot8-extractor
+    verifier_principal: pilot8-evidence-verifier-v1
+    verified_at: 2026-08-09T17:06:07Z
+  - claim_id: claim-002
+    normalized_claim: "The choice set contains 242 metropolitan statistical areas."
+    source_item_key: 5IMPC5SG
+    source_attachment_key: XKUXI46U
+    source_content_hash: ce76e6265cb2629d5d5aaa9c40ed6bda39f68c6ae205282bdeda4e81128a5c4d
+    locator:
+      page: 6
+      section: "Empirical implementation"
+    supporting_passage_hash: cc3fa1a715d36756a1b988a5e5a652d05b7ab40890bf577da672d08c202d158d
+    status: claim_verified
+    extractor_principal: pilot8-extractor
+    verifier_principal: pilot8-evidence-verifier-v1
+    verified_at: 2026-08-09T17:06:07Z
+  - claim_id: claim-003
+    normalized_claim: "Observed market outcomes include housing prices and wages across locations."
+    source_item_key: 5IMPC5SG
+    source_attachment_key: XKUXI46U
+    source_content_hash: ce76e6265cb2629d5d5aaa9c40ed6bda39f68c6ae205282bdeda4e81128a5c4d
+    locator:
+      page: 1
+      section: "Abstract and introduction"
+    supporting_passage_hash: 4835d635f41575f3268a68ef777f704ce83f396c8dba4b088df1dcbb49491955
+    status: claim_verified
+    extractor_principal: pilot8-extractor
+    verifier_principal: pilot8-evidence-verifier-v1
+    verified_at: 2026-08-09T17:06:07Z
+  - claim_id: claim-004
+    normalized_claim: "The location-choice analysis relies on national census microdata."
+    source_item_key: 5IMPC5SG
+    source_attachment_key: XKUXI46U
+    source_content_hash: ce76e6265cb2629d5d5aaa9c40ed6bda39f68c6ae205282bdeda4e81128a5c4d
+    locator:
+      page: 4
+      section: "Residential sorting model"
+    supporting_passage_hash: 62da53e8af06baea967588672eb94fc1c149def9c9a8bdf99d0fc06c125ca54a
+    status: claim_verified
+    extractor_principal: pilot8-extractor
+    verifier_principal: pilot8-evidence-verifier-v1
+    verified_at: 2026-08-09T17:06:07Z
+  - claim_id: claim-005
+    normalized_claim: "Moving to a new city entails out-of-pocket and psychological costs."
+    source_item_key: 5IMPC5SG
+    source_attachment_key: XKUXI46U
+    source_content_hash: ce76e6265cb2629d5d5aaa9c40ed6bda39f68c6ae205282bdeda4e81128a5c4d
+    locator:
+      page: 2
+      section: "Introduction"
+    supporting_passage_hash: 155d0fcb4a3dc5ad58e4a3de3e13544acc3db50590efc47d47bed363106395e0
+    status: claim_verified
+    extractor_principal: pilot8-extractor
+    verifier_principal: pilot8-evidence-verifier-v1
+    verified_at: 2026-08-09T17:06:07Z
+  - claim_id: claim-006
+    normalized_claim: "The census data record birthplace and current residential location."
+    source_item_key: 5IMPC5SG
+    source_attachment_key: XKUXI46U
+    source_content_hash: ce76e6265cb2629d5d5aaa9c40ed6bda39f68c6ae205282bdeda4e81128a5c4d
+    locator:
+      page: 4
+      section: "Residential sorting model"
+    supporting_passage_hash: 00d05c5cd68e40eb6cff08ccf1062f1f6b1b3ba8a270fec46a12e630f9af75dd
+    status: claim_verified
+    extractor_principal: pilot8-extractor
+    verifier_principal: pilot8-evidence-verifier-v1
+    verified_at: 2026-08-09T17:06:07Z

@@ -1,0 +1,5 @@
+monitor,date,pm25,unit,flag
+m1,2020-01-01,12,ug/m3,
+m1,2020-01-02,18,ug/m3,
+m2,2020-01-01,36,ug/m3,
+m2,2020-01-02,,ug/m3,below-detection

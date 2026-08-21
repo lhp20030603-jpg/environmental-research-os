@@ -1,0 +1,10 @@
+id: clean-identification
+title: "Clean Identification? The Effects of the Clean Air Act on Air Pollution, Exposure Disparities and House Prices"
+method_family: difference_in_differences
+topic: air pollution and house prices
+public: false
+source_url: https://www.openicpsr.org/openicpsr/project/192280/view
+source_version: V1
+doi: 10.3886/E192280V1
+commands: []
+expected_outputs: []

@@ -1,0 +1,33 @@
+profile_id: meta-analysis
+version: 0.2.0
+family: meta_analysis
+compatible_estimands:
+  - causal
+  - descriptive
+required_data_structures:
+  - study_level
+required_features:
+  - comparable_effect_sizes
+  - documented_search
+identifying_assumptions:
+  - Included effect estimates address sufficiently comparable constructs, populations, contrasts, and time horizons for the planned synthesis.
+  - The documented search, screening, and extraction process captures the eligible evidence without outcome-dependent inclusion decisions.
+  - Dependence among estimates and between-study heterogeneity are represented in the target summary and its uncertainty.
+incompatibility_rules:
+  - Available studies cannot be mapped to a common effect-size definition without changing their substantive estimands.
+  - Search and screening decisions cannot be reconstructed well enough to evaluate selective inclusion.
+mandatory_diagnostics:
+  - Report search coverage, screening flow, coding agreement, duplicate samples, and study-level risk-of-bias judgments.
+  - Examine heterogeneity, influential studies, dependent estimates, and sensitivity to effect-size construction.
+  - Assess small-study and selective-reporting patterns without treating any single diagnostic as proof of publication bias or its absence.
+falsification_checks:
+  - Recompute the planned synthesis after excluding effect estimates whose outcomes or contrasts were not pre-specified in the source study.
+fallback_profiles: []
+analysis_plan_fields:
+  - Review question, eligibility criteria, information sources, search dates, and screening rules
+  - Common effect-size definition, conversion assumptions, and direction conventions
+  - Multiple estimates per study, shared samples, heterogeneity, and moderator strategy
+  - Risk-of-bias, selective-reporting, influence, and robustness assessments
+methodological_references:
+  - ISBN:9780470743386
+estimator_entrypoint: null

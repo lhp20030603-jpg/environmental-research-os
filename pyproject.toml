@@ -1,0 +1,71 @@
+[project]
+name = "environmental-research-os"
+version = "0.2.0"
+description = "Artifact-driven environmental research workflow and personal pilot"
+readme = "README.md"
+authors = [
+    { name = "Haopeng Liu", email = "lhp20030603@gmail.com" }
+]
+license = "MIT"
+keywords = [
+    "environmental-economics",
+    "environmental-policy",
+    "econometrics",
+    "reproducible-research",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: MacOS",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Scientific/Engineering",
+]
+requires-python = ">=3.11,<3.14"
+dependencies = [
+    "cryptography>=45.0.0",
+    "filelock>=3.32.2",
+    "hydra-core>=1.3.4",
+    "packaging>=26.2",
+    "pydantic>=2.13.4",
+    "pyyaml>=6.0.3",
+    "rich>=15.0.0",
+    "typer>=0.27.1",
+]
+
+[project.urls]
+Repository = "https://github.com/lhp20030603-jpg/environmental-research-os"
+Issues = "https://github.com/lhp20030603-jpg/environmental-research-os/issues"
+
+[project.scripts]
+envresearch = "envresearch.cli:app"
+
+[build-system]
+requires = ["uv_build>=0.10.5,<0.11.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "mypy>=2.3.0",
+    "pytest>=9.1.1",
+    "pytest-cov>=7.1.0",
+    "ruff>=0.16.1",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "--strict-markers --strict-config"
+
+[tool.ruff]
+line-length = 88
+target-version = "py311"
+
+[tool.mypy]
+python_version = "3.11"
+strict = true
+
+[tool.uv.build-backend]
+module-name = "envresearch"

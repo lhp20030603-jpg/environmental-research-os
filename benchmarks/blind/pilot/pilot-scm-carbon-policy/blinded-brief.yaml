@@ -1,0 +1,45 @@
+schema_version: "1.0"
+case_id: pilot-case-005
+source_sheet_ref:
+  artifact_id: curator-source-sheet
+  artifact_version: 1
+  content_hash: 18cd69a4774ef90b2c7438242771a1ed669c53762120df63bb3aaa031c58c528
+policy_setting: "One regional industry adopts an emissions-market rule while other regions remain untreated."
+population: "One province's high-emissions manufacturing industry."
+unit: "Region-year."
+treatment_or_exposure: "Adoption by one treated region at a known policy start date."
+timing: "The treated province has a known policy start date."
+candidate_outcomes:
+  - "Constructed carbon-performance index."
+  - "Constructed energy-and-carbon-performance index."
+data_structures:
+  - "Long balanced provincial panel."
+available_variables:
+  - "Province and calendar year."
+institutional_rules:
+  - "The design assumes no interaction between donor-pool regions and the treated region."
+  - "Pre-policy outcome and predictor fit determines comparison weights."
+constraints:
+  - "Two other participating regions were unsuitable for the analysis."
+facts:
+  - fact_id: fact-001
+    statement: "The treated province has a known policy start date."
+    fact_kind: timing
+  - fact_id: fact-002
+    statement: "The treated unit is one province's high-emissions manufacturing industry."
+    fact_kind: unit
+  - fact_id: fact-003
+    statement: "Two multi-input performance indexes are candidate outcomes."
+    fact_kind: outcome
+  - fact_id: fact-004
+    statement: "The data form a long balanced provincial panel."
+    fact_kind: data
+  - fact_id: fact-005
+    statement: "The design assumes no interaction between donor-pool regions and the treated region."
+    fact_kind: institution
+  - fact_id: fact-006
+    statement: "Two other participating regions were unsuitable for the analysis."
+    fact_kind: constraint
+missing_facts:
+  - "The maximum defensible pre-policy imbalance is not prespecified."
+masker_principal: pilot8-masker

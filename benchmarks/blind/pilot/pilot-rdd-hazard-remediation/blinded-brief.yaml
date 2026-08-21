@@ -1,0 +1,50 @@
+schema_version: "1.0"
+case_id: pilot-case-003
+source_sheet_ref:
+  artifact_id: curator-source-sheet
+  artifact_version: 1
+  content_hash: 2fae9736b4b9645fd5b05c561532455328f859f9f08321cacb51eb7b7af13cd8
+policy_setting: "A federal remediation program assigns cleanup eligibility using an administrative hazard score."
+population: "Residential areas containing or neighboring scored hazardous-waste sites."
+unit: "Census tract or fixed-radius area around a scored site."
+treatment_or_exposure: "Program eligibility when an initial risk score crosses a fixed administrative cutoff."
+timing: "Initial program placement followed the first scoring wave."
+candidate_outcomes:
+  - "Local housing prices."
+  - "Housing rents."
+  - "Population and housing-stock measures."
+data_structures:
+  - "A restricted subset of census tracts."
+available_variables:
+  - "Initial risk score."
+  - "Eligibility indicator."
+  - "Program-list status."
+  - "Housing prices observed across two decades."
+  - "Baseline demographic and housing covariates."
+institutional_rules:
+  - "The fixed cutoff was set after the first testing exercise."
+constraints:
+  - "The estimand is local to sites near the cutoff."
+  - "Testers could stop assigning scores once a site crossed the eligibility cutoff."
+facts:
+  - fact_id: fact-001
+    statement: "Initial program placement followed the first scoring wave."
+    fact_kind: timing
+  - fact_id: fact-002
+    statement: "The core geographic unit is an area containing a scored site."
+    fact_kind: unit
+  - fact_id: fact-003
+    statement: "Housing-market outcomes are observed over two decades."
+    fact_kind: outcome
+  - fact_id: fact-004
+    statement: "The analytic sample is restricted to a subset of census tracts."
+    fact_kind: data
+  - fact_id: fact-005
+    statement: "The fixed cutoff was set after the first testing exercise."
+    fact_kind: institution
+  - fact_id: fact-006
+    statement: "Testers could stop assigning scores once a site crossed the eligibility cutoff."
+    fact_kind: constraint
+missing_facts:
+  - "Whether every eligible site completed remediation by each outcome wave."
+masker_principal: pilot8-masker

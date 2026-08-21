@@ -1,0 +1,113 @@
+schema_version: "1.0"
+case_id: pilot-case-001
+method_family: rct
+zotero_item_key: 2PPVRAL8
+zotero_attachment_key: 77BGL3SA
+doi: 10.1257/aer.104.10.3003
+title: "The Short-Run and Long-Run Effects of Behavioral Interventions: Experimental Evidence from Energy Conservation"
+authors:
+  - "Hunt Allcott"
+  - "Todd Rogers"
+source_content_hash: adfb0344cd46d622a1bdb79820207a4b144d3376de8282febabcc7b41dd0d1d1
+source_generation: 1
+institutional_context:
+  - "A utility conservation program repeatedly delivered behavioral reports to household customers."
+  - "The archived attachment is an accepted-version appendix with auditable design facts but not the complete published typesetting."
+restricted_terms:
+  - term: "Allcott"
+    rationale: source-specific identity, method, dataset, or result marker
+  - term: "Rogers"
+    rationale: source-specific identity, method, dataset, or result marker
+  - term: "Opower"
+    rationale: source-specific identity, method, dataset, or result marker
+  - term: "home energy report"
+    rationale: source-specific identity, method, dataset, or result marker
+  - term: "American Economic Review"
+    rationale: source-specific identity, method, dataset, or result marker
+  - term: "randomized controlled trial"
+    rationale: source-specific identity, method, dataset, or result marker
+  - term: "10-20 percent per year"
+    rationale: source-specific identity, method, dataset, or result marker
+  - term: "15 and 25 percent"
+    rationale: source-specific identity, method, dataset, or result marker
+distinctive_phrase_hashes:
+  - 66b9cdcb16107e992d7a16b32867c91a652c7971ad2a4253f6598a2655c59872
+claims:
+  - claim_id: claim-001
+    normalized_claim: "The intervention repeatedly mailed household energy reports."
+    source_item_key: 2PPVRAL8
+    source_attachment_key: 77BGL3SA
+    source_content_hash: adfb0344cd46d622a1bdb79820207a4b144d3376de8282febabcc7b41dd0d1d1
+    locator:
+      page: 1
+      section: "Abstract"
+    supporting_passage_hash: bb41fef2e527bb38bb1c1917be0d447be8fc1af669ca5d0b666751ce0e4b808e
+    status: claim_verified
+    extractor_principal: pilot8-extractor
+    verifier_principal: pilot8-evidence-verifier-v1
+    verified_at: 2026-08-09T17:06:07Z
+  - claim_id: claim-002
+    normalized_claim: "The archived evidence distinguishes household treatment and control groups across multiple study sites."
+    source_item_key: 2PPVRAL8
+    source_attachment_key: 77BGL3SA
+    source_content_hash: adfb0344cd46d622a1bdb79820207a4b144d3376de8282febabcc7b41dd0d1d1
+    locator:
+      page: 3
+      section: "Appendix I: Surveys of Self-Reported Actions"
+    supporting_passage_hash: 18f6bdd7b9dd29956d137a81170e2118c41509193188e320bdf202a2db933886
+    status: claim_verified
+    extractor_principal: pilot8-extractor
+    verifier_principal: pilot8-evidence-verifier-v1
+    verified_at: 2026-08-09T17:06:07Z
+  - claim_id: claim-003
+    normalized_claim: "The principal administrative outcome is household electricity use measured in kilowatt-hours per day."
+    source_item_key: 2PPVRAL8
+    source_attachment_key: 77BGL3SA
+    source_content_hash: adfb0344cd46d622a1bdb79820207a4b144d3376de8282febabcc7b41dd0d1d1
+    locator:
+      page: 6
+      section: "Notes for Tables A1-A4"
+    supporting_passage_hash: 62b5fc9b6178f906a9cafe74b50ba4b4d975f5cc9fa57ff7c200fe311fdd494a
+    status: claim_verified
+    extractor_principal: pilot8-extractor
+    verifier_principal: pilot8-evidence-verifier-v1
+    verified_at: 2026-08-09T17:06:07Z
+  - claim_id: claim-004
+    normalized_claim: "Uncertainty is estimated with robust standard errors clustered by household."
+    source_item_key: 2PPVRAL8
+    source_attachment_key: 77BGL3SA
+    source_content_hash: adfb0344cd46d622a1bdb79820207a4b144d3376de8282febabcc7b41dd0d1d1
+    locator:
+      page: 6
+      section: "Notes for Tables A1-A4"
+    supporting_passage_hash: df9799ae4c89e3b4a9c4a26329ba8daf442e887c5759a95a358a2aac28ec4dba
+    status: claim_verified
+    extractor_principal: pilot8-extractor
+    verifier_principal: pilot8-evidence-verifier-v1
+    verified_at: 2026-08-09T17:06:07Z
+  - claim_id: claim-005
+    normalized_claim: "Report schedules include monthly, quarterly, and bimonthly delivery groups."
+    source_item_key: 2PPVRAL8
+    source_attachment_key: 77BGL3SA
+    source_content_hash: adfb0344cd46d622a1bdb79820207a4b144d3376de8282febabcc7b41dd0d1d1
+    locator:
+      page: 6
+      section: "Notes for Tables A1-A4"
+    supporting_passage_hash: ed5c14765211904b6d59ef7c4578e9713b8dfc081daae8e3158c972b1086dedf
+    status: claim_verified
+    extractor_principal: pilot8-extractor
+    verifier_principal: pilot8-evidence-verifier-v1
+    verified_at: 2026-08-09T17:06:07Z
+  - claim_id: claim-006
+    normalized_claim: "Telephone survey completion rates are typically between 15 and 25 percent."
+    source_item_key: 2PPVRAL8
+    source_attachment_key: 77BGL3SA
+    source_content_hash: adfb0344cd46d622a1bdb79820207a4b144d3376de8282febabcc7b41dd0d1d1
+    locator:
+      page: 3
+      section: "Appendix I: Surveys of Self-Reported Actions"
+    supporting_passage_hash: 12c64e1117d03f0a82b5ea7a79b710df777146b8d71712c1eee56d8a1ed0e795
+    status: claim_verified
+    extractor_principal: pilot8-extractor
+    verifier_principal: pilot8-evidence-verifier-v1
+    verified_at: 2026-08-09T17:06:07Z

@@ -1,0 +1,1 @@
+{"schema_version":"personal.policy-artifact.v1","policy_kind":"evidence","policy_version":"1","rules":[{"rule_id":"evidence-01-lineage","requirement":"Judge numbers, citations, claim strength, and reproducibility from exact lineage."}]}

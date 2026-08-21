@@ -1,0 +1,113 @@
+schema_version: "1.0"
+case_id: pilot-case-005
+method_family: synthetic_control
+zotero_item_key: JFVA32UJ
+zotero_attachment_key: 5RHCIKXP
+doi: 10.1016/j.enpol.2021.112510
+title: "Towards carbon neutrality by implementing carbon emissions trading scheme: Policy evaluation in China"
+authors:
+  - "Xing Chen"
+  - "Boqiang Lin"
+source_content_hash: d8c5778bb9696dd83ac0a013121127e6224ec17ff946c09fd35665d65f94dce0
+source_generation: 1
+institutional_context:
+  - "One province introduced an industry-level emissions market while nonparticipating provinces remained available as comparisons."
+  - "Provincial performance was constructed from production, energy, and emissions inputs and outputs."
+restricted_terms:
+  - term: "Chen"
+    rationale: source-specific identity, method, dataset, or result marker
+  - term: "Lin"
+    rationale: source-specific identity, method, dataset, or result marker
+  - term: "Hubei"
+    rationale: source-specific identity, method, dataset, or result marker
+  - term: "CETS"
+    rationale: source-specific identity, method, dataset, or result marker
+  - term: "TCPI"
+    rationale: source-specific identity, method, dataset, or result marker
+  - term: "ECPI"
+    rationale: source-specific identity, method, dataset, or result marker
+  - term: "synthetic control method"
+    rationale: source-specific identity, method, dataset, or result marker
+  - term: "non-ferrous metals"
+    rationale: source-specific identity, method, dataset, or result marker
+distinctive_phrase_hashes:
+  - d9c0da03e018f09cd576446dedb7f800efda898bb4ccd9fa2c98da69d5039693
+claims:
+  - claim_id: claim-001
+    normalized_claim: "The treated province began its industry policy on April 2, 2014."
+    source_item_key: JFVA32UJ
+    source_attachment_key: 5RHCIKXP
+    source_content_hash: d8c5778bb9696dd83ac0a013121127e6224ec17ff946c09fd35665d65f94dce0
+    locator:
+      page: 5
+      section: "Data used in counterfactual construction"
+    supporting_passage_hash: c81965328e11b981f294c3f6a4e1bc7af138f7b9f5b534e06cf0065eb3af1a10
+    status: claim_verified
+    extractor_principal: pilot8-extractor
+    verifier_principal: pilot8-evidence-verifier-v1
+    verified_at: 2026-08-09T17:06:07Z
+  - claim_id: claim-002
+    normalized_claim: "The treated unit is one province's non-ferrous-metals industry."
+    source_item_key: JFVA32UJ
+    source_attachment_key: 5RHCIKXP
+    source_content_hash: d8c5778bb9696dd83ac0a013121127e6224ec17ff946c09fd35665d65f94dce0
+    locator:
+      page: 4
+      section: "Methodology"
+    supporting_passage_hash: c8239373d7a4605cfd7286fcabc8eca3472582b51ce51c51ac97ab49e02e95bd
+    status: claim_verified
+    extractor_principal: pilot8-extractor
+    verifier_principal: pilot8-evidence-verifier-v1
+    verified_at: 2026-08-09T17:06:07Z
+  - claim_id: claim-003
+    normalized_claim: "Two constructed indexes measure carbon performance and joint energy-carbon performance."
+    source_item_key: JFVA32UJ
+    source_attachment_key: 5RHCIKXP
+    source_content_hash: d8c5778bb9696dd83ac0a013121127e6224ec17ff946c09fd35665d65f94dce0
+    locator:
+      page: 1
+      section: "Abstract"
+    supporting_passage_hash: b08310ec66d2966d486922661bc2b065820605bff29e91cf430bb9f0f3640b2b
+    status: claim_verified
+    extractor_principal: pilot8-extractor
+    verifier_principal: pilot8-evidence-verifier-v1
+    verified_at: 2026-08-09T17:06:07Z
+  - claim_id: claim-004
+    normalized_claim: "The data form a balanced provincial panel from 2000 through 2018."
+    source_item_key: JFVA32UJ
+    source_attachment_key: 5RHCIKXP
+    source_content_hash: d8c5778bb9696dd83ac0a013121127e6224ec17ff946c09fd35665d65f94dce0
+    locator:
+      page: 5
+      section: "Data used in counterfactual construction"
+    supporting_passage_hash: f00e91ea515bf9544bde6c0d8084908adb33b82be1c85edd73867240a0006e34
+    status: claim_verified
+    extractor_principal: pilot8-extractor
+    verifier_principal: pilot8-evidence-verifier-v1
+    verified_at: 2026-08-09T17:06:07Z
+  - claim_id: claim-005
+    normalized_claim: "The design assumes no interaction between donor-pool regions and the treated region."
+    source_item_key: JFVA32UJ
+    source_attachment_key: 5RHCIKXP
+    source_content_hash: d8c5778bb9696dd83ac0a013121127e6224ec17ff946c09fd35665d65f94dce0
+    locator:
+      page: 5
+      section: "Data used in counterfactual construction"
+    supporting_passage_hash: e8b756e7f83a77cee615225ea859278ba86233495dcb2d0e8b9dc0e058d8b5e7
+    status: claim_verified
+    extractor_principal: pilot8-extractor
+    verifier_principal: pilot8-evidence-verifier-v1
+    verified_at: 2026-08-09T17:06:07Z
+  - claim_id: claim-006
+    normalized_claim: "Two other participating provinces were unsuitable for the analysis."
+    source_item_key: JFVA32UJ
+    source_attachment_key: 5RHCIKXP
+    source_content_hash: d8c5778bb9696dd83ac0a013121127e6224ec17ff946c09fd35665d65f94dce0
+    locator:
+      page: 11
+      section: "Limitations"
+    supporting_passage_hash: f9f33dcd383d615c1f1f5e2deac6307dd216210641fedb1d5feb1b92921bb638
+    status: claim_verified
+    extractor_principal: pilot8-extractor
+    verifier_principal: pilot8-evidence-verifier-v1
+    verified_at: 2026-08-09T17:06:07Z

@@ -1,0 +1,1 @@
+{"schema_version":"personal.reviewer-behavioral-contract.v1","contract_id":"personal-reviewer-contract-6c61022dcbd01eeebbd44bb64dd199c2300cd46373b676ada8f7d7f09c671615","case_kind":"correct-stop","review_question":"Judge only the observable stop evidence.","correct_stop_is_valid":true,"advisory_only":true,"withheld_fields":["expected_behavior","prior_reviews","seeded_location"]}

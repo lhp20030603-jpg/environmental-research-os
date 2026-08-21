@@ -1,0 +1,1 @@
+{"schema_version":"personal.policy-artifact.v1","policy_kind":"scientific","policy_version":"1","rules":[{"rule_id":"scientific-01-estimand","requirement":"Judge estimand, identification, compatibility, assumptions, and diagnostics from exact evidence."}]}

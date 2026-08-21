@@ -1,0 +1,1 @@
+{"schema_version":"personal.policy-artifact.v1","policy_kind":"synthesis","policy_version":"1","rules":[{"rule_id":"synthesis-01-preserve","requirement":"Preserve every primary finding and disagreement without compensatory scoring."}]}

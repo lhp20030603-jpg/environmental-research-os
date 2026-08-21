@@ -1,0 +1,51 @@
+schema_version: "1.0"
+case_id: pilot-case-007
+source_sheet_ref:
+  artifact_id: curator-source-sheet
+  artifact_version: 1
+  content_hash: 2906c7070a9aafc751d4b900aa1b14c06550a127d41e96fb05f191521e75abfe
+policy_setting: "A territorial accounting system measures combustion and industrial-process carbon dioxide consistently across regions."
+population: "National and subnational jurisdictions."
+unit: "Jurisdiction-year-fuel-sector cell."
+treatment_or_exposure: "Observed fuel consumption and industrial-process activity within the territorial boundary."
+timing: "Annual inventories cover nineteen consecutive years."
+candidate_outcomes:
+  - "Energy-related emissions across fuel-sector cells."
+  - "Cement-process emissions."
+data_structures:
+  - "Annual multidimensional inventory by jurisdiction, fuel, and sector."
+  - "Parallel national and subnational accounts."
+available_variables:
+  - "Physical fuel consumption."
+  - "Net calorific value."
+  - "Carbon content."
+  - "Oxidation ratio."
+  - "Industrial-process output."
+  - "Territorial import and export treatment."
+institutional_rules:
+  - "Count combustion where fuel is consumed within the administrative boundary."
+  - "Exclude imported electricity and heat from territorial combustion totals."
+  - "Remove non-energy uses and conversion losses to avoid double counting."
+constraints:
+  - "Subnational calculations apply national-average emission factors."
+facts:
+  - fact_id: fact-001
+    statement: "The inventory is an annual multi-decade time series."
+    fact_kind: timing
+  - fact_id: fact-002
+    statement: "Reporting units include national and subnational jurisdictions."
+    fact_kind: unit
+  - fact_id: fact-003
+    statement: "Energy-related fuel-sector emissions and cement-process emissions are measured."
+    fact_kind: outcome
+  - fact_id: fact-004
+    statement: "Energy-related cells index physical fuel consumption by fuel type and sector."
+    fact_kind: data
+  - fact_id: fact-005
+    statement: "The territorial boundary excludes imported electricity and heat."
+    fact_kind: institution
+  - fact_id: fact-006
+    statement: "Subnational calculations apply national-average emission factors."
+    fact_kind: constraint
+missing_facts: []
+masker_principal: pilot8-masker

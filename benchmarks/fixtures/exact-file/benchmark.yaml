@@ -1,0 +1,15 @@
+id: synthetic-exact-file
+title: Synthetic exact-file benchmark
+method_family: fixture
+topic: deterministic replay
+public: false
+source_url: https://example.org/archive/v1
+commands:
+  - argv:
+      - python
+      - -c
+      - "from pathlib import Path; Path('result.txt').write_text('synthetic output\\n', encoding='utf-8')"
+expected_outputs:
+  - path: result.txt
+    comparator: exact
+    expected_path: expected/result.txt

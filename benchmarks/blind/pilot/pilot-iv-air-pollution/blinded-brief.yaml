@@ -1,0 +1,52 @@
+schema_version: "1.0"
+case_id: pilot-case-004
+source_sheet_ref:
+  artifact_id: curator-source-sheet
+  artifact_version: 1
+  content_hash: e78a9782047910ed7d0fca981371593d981cf077b350dc3ac3db328093fd4359
+policy_setting: "Short-run fine-particle exposure varies with atmospheric transport conditions."
+population: "Older residents covering most of the eligible population."
+unit: "County-day, with beneficiary-level health histories available for heterogeneity analysis."
+treatment_or_exposure: "Daily monitored fine-particle concentration."
+timing: "A long daily pollution panel."
+candidate_outcomes:
+  - "Mortality within short exposure windows."
+  - "Emergency hospital use."
+  - "Associated medical spending."
+  - "Predicted life-years lost."
+data_structures:
+  - "Daily county panel linking pollution monitors, weather, and health outcomes."
+  - "Individual health histories linked to neighborhood characteristics."
+available_variables:
+  - "Fine-particle concentration."
+  - "Daily wind orientation and speed."
+  - "Weather controls."
+  - "Mortality and hospital-use counts."
+  - "Beneficiary enrollment and health history."
+institutional_rules:
+  - "Wind orientation must predict local exposure."
+  - "Conditional wind shifts must not directly change health outcomes except through exposure."
+constraints:
+  - "Pollution measures cover only a subset of counties."
+facts:
+  - fact_id: fact-001
+    statement: "Pollution is observed in a long daily panel."
+    fact_kind: timing
+  - fact_id: fact-002
+    statement: "Older residents cover most of the eligible population."
+    fact_kind: unit
+  - fact_id: fact-003
+    statement: "Mortality, hospital use, and medical spending are candidate outcomes."
+    fact_kind: outcome
+  - fact_id: fact-004
+    statement: "The main estimation sample is organized as county-day observations."
+    fact_kind: data
+  - fact_id: fact-005
+    statement: "Daily wind orientation generates variation in local fine-particle exposure."
+    fact_kind: institution
+  - fact_id: fact-006
+    statement: "Pollution measures cover only a subset of counties."
+    fact_kind: constraint
+missing_facts:
+  - "Fine-scale exposure within counties is not directly observed."
+masker_principal: pilot8-masker

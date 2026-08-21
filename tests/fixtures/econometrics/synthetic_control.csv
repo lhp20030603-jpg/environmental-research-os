@@ -1,0 +1,13 @@
+unit,year,emissions,income
+treated,2008,11,5
+treated,2009,10,5
+treated,2010,8,5
+treated,2011,7,5
+donor-a,2008,10,4
+donor-a,2009,9,4
+donor-a,2010,9,4
+donor-a,2011,8,4
+donor-b,2008,12,6
+donor-b,2009,11,6
+donor-b,2010,10,6
+donor-b,2011,9,6

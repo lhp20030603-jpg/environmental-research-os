@@ -1,0 +1,122 @@
+schema_version: "1.0"
+case_id: pilot-case-004
+method_family: iv
+zotero_item_key: AL5UGD9H
+zotero_attachment_key: 2EV4MK6Q
+doi: 10.1257/aer.20180279
+title: "The Mortality and Medical Costs of Air Pollution: Evidence from Changes in Wind Direction"
+authors:
+  - "Tatyana Deryugina"
+  - "Garth Heutel"
+  - "Nolan H. Miller"
+  - "David Molitor"
+  - "Julian Reif"
+source_content_hash: fd1ac1bcfc465d3c1b8bc309879bef78391ad7215ab45062206266fa61733032
+source_generation: 1
+institutional_context:
+  - "Daily atmospheric transport shifts local fine-particle exposure."
+  - "Administrative health records cover older residents over a long daily panel."
+restricted_terms:
+  - term: "Deryugina"
+    rationale: source-specific identity, method, dataset, or result marker
+  - term: "Heutel"
+    rationale: source-specific identity, method, dataset, or result marker
+  - term: "Miller"
+    rationale: source-specific identity, method, dataset, or result marker
+  - term: "Molitor"
+    rationale: source-specific identity, method, dataset, or result marker
+  - term: "Reif"
+    rationale: source-specific identity, method, dataset, or result marker
+  - term: "Medicare"
+    rationale: source-specific identity, method, dataset, or result marker
+  - term: "PM2.5"
+    rationale: source-specific identity, method, dataset, or result marker
+  - term: "wind direction"
+    rationale: source-specific identity, method, dataset, or result marker
+  - term: "instrumental variable"
+    rationale: source-specific identity, method, dataset, or result marker
+  - term: "2.99 life-years"
+    rationale: source-specific identity, method, dataset, or result marker
+  - term: "902 counties"
+    rationale: source-specific identity, method, dataset, or result marker
+distinctive_phrase_hashes:
+  - a08ce5df0fd15e2907001923a31038aec6dfa74dd6fd71a27717124354d01cd0
+claims:
+  - claim_id: claim-001
+    normalized_claim: "Daily pollution data cover much of the country from 1999 through 2013."
+    source_item_key: AL5UGD9H
+    source_attachment_key: 2EV4MK6Q
+    source_content_hash: fd1ac1bcfc465d3c1b8bc309879bef78391ad7215ab45062206266fa61733032
+    locator:
+      page: 2
+      section: "Introduction"
+    supporting_passage_hash: dddf1e0949b1f54c24178d5299d1bea86e86eab7b3dc773d2f03ddf4a560a4af
+    status: claim_verified
+    extractor_principal: pilot8-extractor
+    verifier_principal: pilot8-evidence-verifier-v1
+    verified_at: 2026-08-09T17:06:07Z
+  - claim_id: claim-002
+    normalized_claim: "The study population covers approximately 97 percent of residents aged 65 and older."
+    source_item_key: AL5UGD9H
+    source_attachment_key: 2EV4MK6Q
+    source_content_hash: fd1ac1bcfc465d3c1b8bc309879bef78391ad7215ab45062206266fa61733032
+    locator:
+      page: 2
+      section: "Introduction"
+    supporting_passage_hash: d8ac3727423b078fed9911b2f45aac3290bc1f4e7c9b50bf52027bfd4ff24bc9
+    status: claim_verified
+    extractor_principal: pilot8-extractor
+    verifier_principal: pilot8-evidence-verifier-v1
+    verified_at: 2026-08-09T17:06:07Z
+  - claim_id: claim-003
+    normalized_claim: "Candidate outcomes include mortality, hospital use, and associated medical spending."
+    source_item_key: AL5UGD9H
+    source_attachment_key: 2EV4MK6Q
+    source_content_hash: fd1ac1bcfc465d3c1b8bc309879bef78391ad7215ab45062206266fa61733032
+    locator:
+      page: 2
+      section: "Introduction"
+    supporting_passage_hash: eebf047f4f493ee8d25cb2948d86c1af517b2f52fd5fc91d9e24d226e339cda8
+    status: claim_verified
+    extractor_principal: pilot8-extractor
+    verifier_principal: pilot8-evidence-verifier-v1
+    verified_at: 2026-08-09T17:06:07Z
+  - claim_id: claim-004
+    normalized_claim: "The main estimation sample is structured as county-day observations."
+    source_item_key: AL5UGD9H
+    source_attachment_key: 2EV4MK6Q
+    source_content_hash: fd1ac1bcfc465d3c1b8bc309879bef78391ad7215ab45062206266fa61733032
+    locator:
+      page: 11
+      section: "Data"
+    supporting_passage_hash: be2e2b2c48af7c9f20bbd21bb8adebb6a1605bf2e18d564ad05c5ba5c3dcce3b
+    status: claim_verified
+    extractor_principal: pilot8-extractor
+    verifier_principal: pilot8-evidence-verifier-v1
+    verified_at: 2026-08-09T17:06:07Z
+  - claim_id: claim-005
+    normalized_claim: "Changes in daily wind orientation generate variation in local fine-particle exposure."
+    source_item_key: AL5UGD9H
+    source_attachment_key: 2EV4MK6Q
+    source_content_hash: fd1ac1bcfc465d3c1b8bc309879bef78391ad7215ab45062206266fa61733032
+    locator:
+      page: 2
+      section: "Introduction"
+    supporting_passage_hash: 3a9706f5a4433365d98588585c1ce62a09046ec875fe088e384364b4de91aae5
+    status: claim_verified
+    extractor_principal: pilot8-extractor
+    verifier_principal: pilot8-evidence-verifier-v1
+    verified_at: 2026-08-09T17:06:07Z
+  - claim_id: claim-006
+    normalized_claim: "Pollution measures are available for 902 counties."
+    source_item_key: AL5UGD9H
+    source_attachment_key: 2EV4MK6Q
+    source_content_hash: fd1ac1bcfc465d3c1b8bc309879bef78391ad7215ab45062206266fa61733032
+    locator:
+      page: 11
+      section: "Data"
+    supporting_passage_hash: 36514206a97bbbe575f69b0d4f3d6079ca55c161646d47f708ced7ab133c3efe
+    status: claim_verified
+    extractor_principal: pilot8-extractor
+    verifier_principal: pilot8-evidence-verifier-v1
+    verified_at: 2026-08-09T17:06:07Z
